@@ -7,11 +7,17 @@ Here you can find a XSD to validate your mapping, examples and explanation of al
 
 ## Validation
 
-[TODO]
+You can validate your mapped metadata with our XSD `viaa_metadatamodel_xsd.xsd`.
+An easy way to do this is with xmllint, which is part of [libxml](http://xmlsoft.org/).
+Open a Terminal and run following command:
+
+```bash
+xmllint --noout --schema viaa_metadatamodel_xsd.xsd YOUR_XML_FILE
+```
 
 ## Full metadata example
 
-[TODO]
+See `viaa_metadatamodel_voorbeeld.xml` for a full metadata XML.
 
 ## Metadata model
 
