@@ -3,19 +3,25 @@
     <xs:complexType>
       <xs:choice maxOccurs="unbounded" minOccurs="0">
         <xs:element type="xs:string" name="CP"/>
-        <xs:element type="xs:string" name="sp_name" default="borndigital">
+        <xs:element name="sp_name" default="borndigital">
           <xs:simpleType>
             <xs:restriction base="xs:string">
               <xs:enumeration value="borndigital"/>
               <xs:enumeration value="Memnon"/>
             </xs:restriction>
-            <xs:attribute type="xs:string" name="type"/>
           </xs:simpleType>  
         </xs:element>
         <xs:element type="xs:string" name="dc_source"/>
         <xs:element type="xs:string" name="dc_identifier_localid"/>
-        <xs:element name="dc_identifier_localids"/>
-        <xs:element type="xs:string" name="md5">
+        <xs:element name="dc_identifier_localids">
+          <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+              <xs:any processContents="lax"/>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
+        </xs:element>
+        <xs:element name="md5">
           <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:pattern value="[a-zA-Z0-9]{32}"/>
@@ -25,13 +31,13 @@
         <xs:element type="xs:string" name="title"/>
         <xs:element name="dc_titles">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="archief"/>
               <xs:element type="xs:string" name="deelarchief"/>
               <xs:element type="xs:string" name="reeks"/>
               <xs:element type="xs:string" name="deelreeks"/>
               <xs:element type="xs:string" name="serie"/>
-              <xs:element type="xs:byte" name="serienummer">
+              <xs:element name="serienummer">
                 <xs:simpleType>
                   <xs:restriction base="xs:integer">
                     <xs:pattern value="[0-9]+"/>
@@ -46,11 +52,11 @@
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
         </xs:element>
-        <xs:element type="xs:dateTime" name="dcterms_issued"/>
-        <xs:element type="xs:dateTime" name="dcterms_created"/>
+        <xs:element type="xs:string" name="dcterms_issued"/>
+        <xs:element type="xs:string" name="dcterms_created"/>
         <xs:element name="dc_creators">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="maker"/>
               <xs:element type="xs:string" name="archiefvormer"/>
               <xs:element type="xs:string" name="publisher"/>
@@ -61,7 +67,7 @@
         </xs:element>
         <xs:element name="dc_contributors">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="bijdrager"/>
               <xs:element type="xs:string" name="geluidsman"/>
               <xs:element type="xs:string" name="custom"/>
@@ -71,7 +77,7 @@
         </xs:element>
         <xs:element name="dc_publishers">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="publisher"/>
               <xs:element type="xs:string" name="omroep"/>
               <xs:element type="xs:string" name="distributeur"/>
@@ -82,7 +88,7 @@
         </xs:element>
         <xs:element name="dc_subjects">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="trefwoord"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
@@ -96,7 +102,7 @@
         <xs:element type="xs:string" name="dc_description_transcriptie"/>
         <xs:element name="dc_types">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="genre"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
@@ -104,7 +110,7 @@
         </xs:element>
         <xs:element name="dc_coverages">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="ruimte" minOccurs="0"/>
               <xs:element type="xs:string" name="tijd" minOccurs="0"/>
               <xs:element type="xs:string" name="trefwoord" maxOccurs="unbounded" minOccurs="0"/>
@@ -114,7 +120,7 @@
         </xs:element>
         <xs:element name="dc_languages">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="multiselect" maxOccurs="unbounded" minOccurs="0"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
@@ -122,7 +128,7 @@
         </xs:element>
         <xs:element name="dc_rights_licenses">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="licentie"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
@@ -130,7 +136,7 @@
         </xs:element>
         <xs:element name="dc_rights_rightsOwners">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="auteursrechthouder"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
@@ -138,7 +144,7 @@
         </xs:element>
         <xs:element name="dc_rights_rightsHolders">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="licentiehouder"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
