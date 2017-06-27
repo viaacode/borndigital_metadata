@@ -28,7 +28,7 @@
               </xs:restriction>
             </xs:simpleType>
         </xs:element>
-        <xs:element type="xs:string" name="title"/>
+        <xs:element type="xs:string" name="dc_title"/>
         <xs:element name="dc_titles">
           <xs:complexType>
             <xs:choice maxOccurs="unbounded">
