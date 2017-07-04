@@ -43,7 +43,7 @@ Overige belangrijke identifiers zoals URIs, link naar API, bestandsnaam etc.
 * Hoofdtitel 
 Algemene benaming of hoofdtitel gebruikt om naar een bepaald item te zoeken. Het gaat hier om een nette titel die op externe platformen als zoektoegang zal worden gebruikt.
 ```xml
-<title>Alaska: Eskimo’s</title>
+<dc_title>Alaska: Eskimo’s</dc_title>
 ```
 
 * Alternatief
