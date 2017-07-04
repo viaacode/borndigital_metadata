@@ -26,6 +26,7 @@
     </dc_titles>
     <dcterms_issued>2014-03-11T13:00:00</dcterms_issued>
     <dcterms_created>2014-uu-uu</dcterms_created>
+    <ebu_objectType>item</ebu_objectType>
     <dc_creators type="list">
      <maker>Naam maker</maker>
      <archiefvormer>Naam archiefvormer</archiefvormer>
@@ -43,18 +44,15 @@
      <distributeur>Naam distributeur</distributeur>
      <persagentschap>Naam persagentschap</persagentschap>
     </dc_publishers>
-    <dc_subjects type="list">
-      <trefwoord>Vergaderzaal: Antoon Van Dyck</trefwoord>
-    </dc_subjects>
-    <description>hoofdbeschrijving | OCR | speech-to-text</description>
-    <dc_description_long>Uitgebreide beschrijving</dc_description_long>
+    <dc_description>hoofdbeschrijving | OCR | speech-to-text</dc_description>
+    <dc_description_lang>Uitgebreide beschrijving</dc_description_long>
     <dc_description_programme>Een korte beschrijving van het programma waar het item een onderdeel
 van vormt.</dc_description_programme>
     <dc_description_cast>Julien Schoenaert (Oedipus), Aafke Bruyninckx (Antigone)</dc_description_cast>
     <dc_description_ondertitels>Een weergave van de ondertitels die bij het digitale object horen.</dc_description_ondertitels>
     <dc_description_transcriptie>Kan eventueel de uitkomst zijn van een speech-to-tekst toepassing.</dc_description_transcriptie>
     <dc_types type="list">
-      <genre>sportverslaggeving</genre>
+      <multiselect>sportverslaggeving</multiselect>
     </dc_types>
     <dc_coverages type="list">
       <ruimte>Gemeente X</ruimte>
@@ -65,8 +63,11 @@ van vormt.</dc_description_programme>
      <trefwoord>socialistische beweging</trefwoord>
     </dc_subjects>
     <dc_languages type="list">
-     <multiselect>nl</multiselect>
-     <multiselect>fr</multiselect>
+        <multiselect>nl</multiselect>
+        <multiselect>fr</multiselect>
+        <multiselect>de</multiselect>
+        <multiselect>it</multiselect>
+        <multiselect>en</multiselect>
     </dc_languages>
     <dc_rights_licenses type="list">
       <licentie>CC BY</licentie>
