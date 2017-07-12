@@ -46,24 +46,93 @@ Overige belangrijke identifiers zoals URIs, link naar API, bestandsnaam etc.
 ```
 
 #### Titels
-* Hoofdtitel 
+
+##### Hoofdtitel
 Algemene benaming of hoofdtitel gebruikt om naar een bepaald item te zoeken. Het gaat hier om een nette titel die op externe platformen als zoektoegang zal worden gebruikt.
 ```xml
 <dc_title>Alaska: Eskimo’s</dc_title>
 ```
 
-* Alternatief
+##### Alternatief
+De alternatieve titel. Dit is een alternatieve benaming voor het item. Een alternatieve titel kan ook een archieftitel of een vertaling van de titel zijn.
+```xml
+<dc_titles type=”list”> <alternatief/>
+</dc_titles>
+```
 
-* Registratie	20
-* Archief	21
-* Deelarchief	21
-* Reeks	21
-* Deelreeks	22
-* Serie	22
-* Serienummer	23
-* Seizoen	23
-* Seizoennummer	24
-* Programma	24
+##### Registratie
+Dit is de registratie-titel zoals ingegeven in AMS.
+```xml
+<dc_titles type=”list”> <registratie/>
+</dc_titles>
+```
+
+##### Archief
+Het hoogste beschrijvingsniveau: het archief waar het object deel van uitmaakt.
+```xml
+<dc_titles type=”list”>
+<archief>Archief Gezinsbond</archief>
+</dc_titles
+```
+
+##### Deelarchief
+Een deel van een archief dat bestaat uit een geheel van onderling gerelateerde archiefstukken
+```xml
+<dc_titles type=”list”> <deelarchief/>
+</dc_titles>
+```
+
+##### Reeks
+Het hoogste beschrijvingsniveau: het archief waar het object deel van uitmaakt.
+```xml
+<dc_titles type=”list”>
+<archief>Archief Gezinsbond</archief>
+</dc_titles>
+```
+
+##### Archief
+Documenten gerangschikt volgens een ordeningsplan of beheerd als een eenheid omdat ze het resultaat zijn van een zelfde proces van archiefvorming of opslag, of van eenzelfde activiteit, of omdat ze een bepaalde vorm hebben, of wegens enige andere samenhang die voort- komt uit creatie, ontvangst of gebruik.
+```xml
+<dc_titles type=”list”> <reeks/>
+</dc_titles>
+```
+
+##### Serie
+De serietitel. Dit is de titel van de serie waar het item deel van uit- maakt.
+```xml
+<dc_titles type=”list”>
+<serie>Het Journaal</serie>
+</dc_titles>
+```
+
+##### Serienummer
+Het nummer van de serie waarvan het item deel uitmaakt.
+```xml
+<dc_titles type=”list”> <serienummer/>
+</dc_titles>
+```
+
+##### Seizoen
+Het seizoen/jaargang waarvan het item deel uitmaakt.
+```xml
+<dc_titles type=”list”> <seizoen>
+</dc_titles>
+```
+
+##### Seizoennummer
+Het nummer van het seizoen waarvan het item deel uitmaakt.
+```xml
+<dc_titles type=”list”> <seizoennummer>
+</dc_titles>
+```
+
+##### Programma
+De programmatitel. Dit is de titel van het programma waarvan het item deel uitmaakt.
+```xml
+<dc_titles type=”list”> <programma/>
+</dc_titles>
+```
+
 
 #### Datum	25
 * Datum creatie	25
