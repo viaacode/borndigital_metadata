@@ -134,25 +134,134 @@ De programmatitel. Dit is de titel van het programma waarvan het item deel uitma
 ```
 
 
-#### Datum	25
-* Datum creatie	25
-* Datum uitgave / uitzending	26
+#### Datum
+
+
+##### Datum creatie
+De datum waarop de intellectuele inhoud van het item werd gecreeerd.
+```xml
+<dcterms_created/>
+```
+
+##### Datum uitgave / uitzending
+De datum waarop het item is uitgegeven of uitgezonden.
+```xml
+<dcterms_issued/>
+```
 
 #### Productie	27
-* Maker	27
-* Bijdrager	27
-* Publisher	28
+
+##### Maker
+De persoon of instelling die (in hoofdzaak) verantwoordelijk is voor de creatie van de inhoud van het item.
+```xml
+<dc_creators type=”list”> <maker/>
+<regisseur/> <archiefvormer/>
+</dc_creators>
+```
+
+##### Bijdrager
+De persoon of instelling die een substantiële creatieve bijdrage tot de intellectuele inhoud van het item heeft geleverd.
+```xml
+<dc_contributors type=”list”> <bijdrager/>
+<geluidsman/> <pianist/>
+</dc_contributors>
+```
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
 
 #### Inhoud
 * Hoofdbeschrijving	29
+
+##### Publisher
+Een korte, algemene omschrijving van de intellectuele inhoud van het item.
+```xml
+<description/>
+```
+
 * Lange beschrijving	30
+
+##### Lange beschrijving
+Een gedetailleerde beschrijving van de inhoud van het item. Dit kan bijvoorbeeld door puntsgewijs de voornaamste scènes, stockshorts,... te beschrijven. Voor ondertitels is evenwel een apart veld voorzien.
+```xml
+<dc_description_long/>
+```
+
 * Programmabeschrijving	30
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
+
 * Rolverdeling	31
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
+
 * Ondertitels	31
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
+
 * Transcriptie	31
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
+
 * Genre	32
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
+
 * Coverage (ruimtelijk)	32
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
+
 * Coverage (tijd)	33
+
+##### Publisher
+De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+```xml
+<dc_publishers type=list/> <publisher/>
+<omroep/> <distributeur/> <persagentschap/> ...
+</dc_publishers>
+```
+
 * Trefwoorden	33
 * Taal	34
 
