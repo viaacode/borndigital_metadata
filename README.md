@@ -63,7 +63,8 @@ De alternatieve titel. Dit is een alternatieve benaming voor het item. Een alter
 ##### Registratie
 Dit is de registratie-titel zoals ingegeven in AMS.
 ```xml
-<dc_titles type=”list”> <registratie/>
+<dc_titles type=”list”> 
+    <registratie/>
 </dc_titles>
 ```
 
@@ -71,14 +72,15 @@ Dit is de registratie-titel zoals ingegeven in AMS.
 Het hoogste beschrijvingsniveau: het archief waar het object deel van uitmaakt.
 ```xml
 <dc_titles type=”list”>
-<archief>Archief Gezinsbond</archief>
+    <archief>Archief Gezinsbond</archief>
 </dc_titles
 ```
 
 ##### Deelarchief
 Een deel van een archief dat bestaat uit een geheel van onderling gerelateerde archiefstukken
 ```xml
-<dc_titles type=”list”> <deelarchief/>
+<dc_titles type=”list”> 
+    <deelarchief/>
 </dc_titles>
 ```
 
