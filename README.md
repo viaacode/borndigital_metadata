@@ -216,23 +216,17 @@ Een oplijsting van de voornaamste acteurs/performers en hun respectievelijke rol
 <dc_description_cast/>
 ```
 
-* Ondertitels	31
-
 ##### Ondertitels
 Een weergave van de ondertitels die bij het digitale object horen.
 ```xml
 <dc_description_ondertitels/>
 ```
 
-* Transcriptie	31
-
 ##### Transcriptie
 Een weergave van de transcriptie van het digitale object.
 ```xml
 <dc_description_transcriptie/>
 ```
-
-* Genre	32
 
 ##### Genre
 Omschrijving van de aard, het genre of het doelpubliek van het item.
@@ -242,8 +236,6 @@ Omschrijving van de aard, het genre of het doelpubliek van het item.
 </dc_types>
 ```
 
-* Coverage (ruimtelijk)	32
-
 ##### Coverage (ruimtelijk)
 Een beschrijvende a akening van het geogra sch gebied (straat, stad, land, continent) waar de inhoud van het item betrekking op heeft.
 ```xml
@@ -251,8 +243,6 @@ Een beschrijvende a akening van het geogra sch gebied (straat, stad, land, conti
     <ruimte/>
 </dc_coverages>
 ```
-
-* Coverage (tijd)	33
 
 ##### Coverage (tijd)
 Een beschrijvende a akening van de tijdsperiode waar de inhoud van het item betrekking op heeft.
@@ -263,25 +253,78 @@ Een beschrijvende a akening van de tijdsperiode waar de inhoud van het item betr
 ```
 
 * Trefwoorden	33
-* Taal	34
+##### Trefwoorden
+Thematische trefwoorden met betrekking tot de inhoud van het item.
+```xml
+<dc_subjects type=”list”> 
+    <trefwoord/>
+</dc_subjects>
+```
 
-####	Rechten	35
+* Taal	34
+##### Taal
+De (belangrijkste) taal/talen die in het item worden gesproken of gebruikt.
+```xml
+<dc_languages type=”list”> 
+    multiselect/>
+</dc_languages>
+```
+
+#### Rechten
+
 * Licentie	35
+##### Licentie
+Het type licentie waaronder de exploitatie (het gebruik, de reproductie en bewerking) van het item wordt geregeld.
+```xml
+<dc_rights_licenses type=”list”> 
+    <licentie/>
+</dc_rights_licences>
+```
+
 * Auteursrechthouder	36
+##### Auteursrechthouder
+De persoon of organisatie die de auteursrechten bezit. Dit kan de eigenlijke auteur zijn, zijn erfgenamen of een derde partij aan wie de rechten zijn overgedragen.
+```xml
+<dc_rights_rightsOwners type=”list”> 
+    <auteursrechthouder/>
+</dc_rights_rightsOwners>
+```
+
 * Licentiehouder	36
+
+##### Licentiehouder
+De persoon of organisatie die de rechten beheert.
+```xml
+<dc_rights_rightsHolders type=”list”> 
+    <licentiehouder/>
+</dc_rights_rightsHolders>
+```
+
 * Credit	37
+
+##### Credit
+Tekst van de attributie of kennisgeving die bij het beeld moet verschijnen.
+```xml
+<dc_rights_credit/>
+```
+
 * Gebruiksbeperking 1	37
+
+##### Gebruiksbeperking
+Beperking van de gebruiksrechten tot een bepaalde regio, medium en/of periode.
+```xml
+<plus_constraints_1 type=”list”> 
+    <regio/>
+    <medium/> 
+    <licentie/> 
+    <duur/>
+</plus_constraints_1>
+```
+
 * Opmerkingen rechten
 
-### For VIAA
-
-#### Algemeen
-* CP	14
-* Content Partner (CP)	14
-* Content Partner ID	14
-* PID
-
-#### Relaties
-* (Dit digitaal object) is deel van	17
-* (Dit digitaal object) bevat	17
-* (Dit digitaal object) is verwant aan
+##### Opmerkingen rechten
+Hier kunnen bijkomende opmerkingen en voorwaarden met betrekking tot de gebruiksrechten van toepassing op het item worden vastgelegd.
+```xml
+<dc_rights_comment/>
+```
