@@ -56,7 +56,8 @@ Algemene benaming of hoofdtitel gebruikt om naar een bepaald item te zoeken. Het
 ##### Alternatief
 De alternatieve titel. Dit is een alternatieve benaming voor het item. Een alternatieve titel kan ook een archieftitel of een vertaling van de titel zijn.
 ```xml
-<dc_titles type=”list”> <alternatief/>
+<dc_titles type=”list”> 
+    <alternatief/>
 </dc_titles>
 ```
 
@@ -88,14 +89,15 @@ Een deel van een archief dat bestaat uit een geheel van onderling gerelateerde a
 Het hoogste beschrijvingsniveau: het archief waar het object deel van uitmaakt.
 ```xml
 <dc_titles type=”list”>
-<archief>Archief Gezinsbond</archief>
+    <archief>Archief Gezinsbond</archief>
 </dc_titles>
 ```
 
 ##### Archief
 Documenten gerangschikt volgens een ordeningsplan of beheerd als een eenheid omdat ze het resultaat zijn van een zelfde proces van archiefvorming of opslag, of van eenzelfde activiteit, of omdat ze een bepaalde vorm hebben, of wegens enige andere samenhang die voort- komt uit creatie, ontvangst of gebruik.
 ```xml
-<dc_titles type=”list”> <reeks/>
+<dc_titles type=”list”> 
+    <reeks/>
 </dc_titles>
 ```
 
@@ -103,35 +105,39 @@ Documenten gerangschikt volgens een ordeningsplan of beheerd als een eenheid omd
 De serietitel. Dit is de titel van de serie waar het item deel van uit- maakt.
 ```xml
 <dc_titles type=”list”>
-<serie>Het Journaal</serie>
+    <serie>Het Journaal</serie>
 </dc_titles>
 ```
 
 ##### Serienummer
 Het nummer van de serie waarvan het item deel uitmaakt.
 ```xml
-<dc_titles type=”list”> <serienummer/>
+<dc_titles type=”list”> 
+    <serienummer/>
 </dc_titles>
 ```
 
 ##### Seizoen
 Het seizoen/jaargang waarvan het item deel uitmaakt.
 ```xml
-<dc_titles type=”list”> <seizoen>
+<dc_titles type=”list”> 
+    <seizoen>
 </dc_titles>
 ```
 
 ##### Seizoennummer
 Het nummer van het seizoen waarvan het item deel uitmaakt.
 ```xml
-<dc_titles type=”list”> <seizoennummer>
+<dc_titles type=”list”> 
+    <seizoennummer>
 </dc_titles>
 ```
 
 ##### Programma
 De programmatitel. Dit is de titel van het programma waarvan het item deel uitmaakt.
 ```xml
-<dc_titles type=”list”> <programma/>
+<dc_titles type=”list”> 
+    <programma/>
 </dc_titles>
 ```
 
@@ -156,24 +162,31 @@ De datum waarop het item is uitgegeven of uitgezonden.
 ##### Maker
 De persoon of instelling die (in hoofdzaak) verantwoordelijk is voor de creatie van de inhoud van het item.
 ```xml
-<dc_creators type=”list”> <maker/>
-<regisseur/> <archiefvormer/>
+<dc_creators type=”list”> 
+    <maker/>
+    <regisseur/> 
+    <archiefvormer/>
 </dc_creators>
 ```
 
 ##### Bijdrager
 De persoon of instelling die een substantiële creatieve bijdrage tot de intellectuele inhoud van het item heeft geleverd.
 ```xml
-<dc_contributors type=”list”> <bijdrager/>
-<geluidsman/> <pianist/>
+<dc_contributors type=”list”> 
+    <bijdrager/>
+    <geluidsman/> 
+    <pianist/>
 </dc_contributors>
 ```
 
 ##### Publisher
 De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
+<dc_publishers type=list/> 
+    <publisher/>
+    <omroep/> 
+    <distributeur/> 
+    <persagentschap/>
 </dc_publishers>
 ```
 
@@ -224,7 +237,8 @@ Een weergave van de transcriptie van het digitale object.
 ##### Genre
 Omschrijving van de aard, het genre of het doelpubliek van het item.
 ```xml
-<dc_types type=”list”> <genre/>
+<dc_types type=”list”> 
+    <genre/>
 </dc_types>
 ```
 
@@ -233,7 +247,8 @@ Omschrijving van de aard, het genre of het doelpubliek van het item.
 ##### Coverage (ruimtelijk)
 Een beschrijvende a akening van het geogra sch gebied (straat, stad, land, continent) waar de inhoud van het item betrekking op heeft.
 ```xml
-<dc_coverages type=”list”> <ruimte/>
+<dc_coverages type=”list”> 
+    <ruimte/>
 </dc_coverages>
 ```
 
@@ -242,7 +257,8 @@ Een beschrijvende a akening van het geogra sch gebied (straat, stad, land, conti
 ##### Coverage (tijd)
 Een beschrijvende a akening van de tijdsperiode waar de inhoud van het item betrekking op heeft.
 ```xml
-<dc_coverages type=”list”> <tijd/>
+<dc_coverages type=”list”> 
+    <tijd/>
 </dc_coverages>
 ```
 
