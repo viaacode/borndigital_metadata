@@ -252,7 +252,6 @@ Een beschrijvende a akening van de tijdsperiode waar de inhoud van het item betr
 </dc_coverages>
 ```
 
-* Trefwoorden	33
 ##### Trefwoorden
 Thematische trefwoorden met betrekking tot de inhoud van het item.
 ```xml
@@ -261,7 +260,6 @@ Thematische trefwoorden met betrekking tot de inhoud van het item.
 </dc_subjects>
 ```
 
-* Taal	34
 ##### Taal
 De (belangrijkste) taal/talen die in het item worden gesproken of gebruikt.
 ```xml
@@ -272,7 +270,6 @@ De (belangrijkste) taal/talen die in het item worden gesproken of gebruikt.
 
 #### Rechten
 
-* Licentie	35
 ##### Licentie
 Het type licentie waaronder de exploitatie (het gebruik, de reproductie en bewerking) van het item wordt geregeld.
 ```xml
@@ -281,7 +278,6 @@ Het type licentie waaronder de exploitatie (het gebruik, de reproductie en bewer
 </dc_rights_licences>
 ```
 
-* Auteursrechthouder	36
 ##### Auteursrechthouder
 De persoon of organisatie die de auteursrechten bezit. Dit kan de eigenlijke auteur zijn, zijn erfgenamen of een derde partij aan wie de rechten zijn overgedragen.
 ```xml
@@ -289,8 +285,6 @@ De persoon of organisatie die de auteursrechten bezit. Dit kan de eigenlijke aut
     <auteursrechthouder/>
 </dc_rights_rightsOwners>
 ```
-
-* Licentiehouder	36
 
 ##### Licentiehouder
 De persoon of organisatie die de rechten beheert.
@@ -300,15 +294,11 @@ De persoon of organisatie die de rechten beheert.
 </dc_rights_rightsHolders>
 ```
 
-* Credit	37
-
 ##### Credit
 Tekst van de attributie of kennisgeving die bij het beeld moet verschijnen.
 ```xml
 <dc_rights_credit/>
 ```
-
-* Gebruiksbeperking 1	37
 
 ##### Gebruiksbeperking
 Beperking van de gebruiksrechten tot een bepaalde regio, medium en/of periode.
@@ -320,8 +310,6 @@ Beperking van de gebruiksrechten tot een bepaalde regio, medium en/of periode.
     <duur/>
 </plus_constraints_1>
 ```
-
-* Opmerkingen rechten
 
 ##### Opmerkingen rechten
 Hier kunnen bijkomende opmerkingen en voorwaarden met betrekking tot de gebruiksrechten van toepassing op het item worden vastgelegd.
