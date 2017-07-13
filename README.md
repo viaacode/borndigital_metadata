@@ -176,15 +176,12 @@ De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk 
 ```
 
 #### Inhoud
-* Hoofdbeschrijving	29
 
-##### Publisher
+##### Hoofdbeschrijving
 Een korte, algemene omschrijving van de intellectuele inhoud van het item.
 ```xml
 <description/>
 ```
-
-* Lange beschrijving	30
 
 ##### Lange beschrijving
 Een gedetailleerde beschrijving van de inhoud van het item. Dit kan bijvoorbeeld door puntsgewijs de voornaamste scènes, stockshorts,... te beschrijven. Voor ondertitels is evenwel een apart veld voorzien.
@@ -192,74 +189,59 @@ Een gedetailleerde beschrijving van de inhoud van het item. Dit kan bijvoorbeeld
 <dc_description_long/>
 ```
 
-* Programmabeschrijving	30
-
-##### Publisher
-De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+##### Programmabeschrijving
+Een korte beschrijving van het programma waar het item een onderdeel van vormt.
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
-</dc_publishers>
+<dc_description_programme/>
 ```
 
-* Rolverdeling	31
-
-##### Publisher
-De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+##### Rolverdeling
+Een oplijsting van de voornaamste acteurs/performers en hun respectievelijke rol.
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
-</dc_publishers>
+<dc_description_cast/>
 ```
 
 * Ondertitels	31
 
-##### Publisher
-De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+##### Ondertitels
+Een weergave van de ondertitels die bij het digitale object horen.
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
-</dc_publishers>
+<dc_description_ondertitels/>
 ```
 
 * Transcriptie	31
 
-##### Publisher
-De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+##### Transcriptie
+Een weergave van de transcriptie van het digitale object.
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
-</dc_publishers>
+<dc_description_transcriptie/>
 ```
 
 * Genre	32
 
-##### Publisher
-De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+##### Genre
+Omschrijving van de aard, het genre of het doelpubliek van het item.
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
-</dc_publishers>
+<dc_types type=”list”> <genre/>
+</dc_types>
 ```
 
 * Coverage (ruimtelijk)	32
 
-##### Publisher
-De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+##### Coverage (ruimtelijk)
+Een beschrijvende a akening van het geogra sch gebied (straat, stad, land, continent) waar de inhoud van het item betrekking op heeft.
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
-</dc_publishers>
+<dc_coverages type=”list”> <ruimte/>
+</dc_coverages>
 ```
 
 * Coverage (tijd)	33
 
-##### Publisher
-De entiteit in hoofdzaak verantwoordelijk voor het verdelen en het toegankelijk maken van een item voor derden door omroep, verkoop, verhuur,...
+##### Coverage (tijd)
+Een beschrijvende a akening van de tijdsperiode waar de inhoud van het item betrekking op heeft.
 ```xml
-<dc_publishers type=list/> <publisher/>
-<omroep/> <distributeur/> <persagentschap/> ...
-</dc_publishers>
+<dc_coverages type=”list”> <tijd/>
+</dc_coverages>
 ```
 
 * Trefwoorden	33
