@@ -2,9 +2,9 @@
 
 [[TOC]]
 
-<b>2. Tabel basisannotatie VIAA datamodel</b>
+# 2. Tabel basisannotatie VIAA datamodel
 
-    1. Administratieve en beschrijvende metadata
+## 1. Administratieve en beschrijvende metadata
 
 <table>
   <tr>
