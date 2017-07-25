@@ -12,7 +12,7 @@
     <td>Mapping</td>
   </tr>
   <tr>
-    <td colspan="2">ALGEMEEN</td>
+    <td>ALGEMEEN</td>
     <td>CP naam</td>
     <td>Automatisch</td>
     <td>Automatisch</td>
@@ -132,8 +132,8 @@ plus:CopyrightOwnerName</td>
 </table>
 
 
-<b>3. Tabel uitgebreide annotatie VIAA datamodel</b>
-
+## 2. Tabel uitgebreide annotatie VIAA datamodel
+### 2.1 Administratieve en beschrijvende metadata
 
 <table>
   <tr>
@@ -622,7 +622,7 @@ Duur</td>
   </tr>
 </table>
 
-<b>3. Kwaliteitscontrole (QC)</b>
+### 2.2 Kwaliteitscontrole (QC)
 
 <table>
   <tr>
@@ -678,7 +678,7 @@ Duur</td>
 
 **→ Voor meer details zie VIAA- archiefhandleiding. **
 
-<b>4. Technische metadata</b>
+### 2.3 Technische metadata
 
 <table>
   <tr>
@@ -1151,11 +1151,9 @@ Duur</td>
 </table>
 
 
-<b>4. Gedetailleerde veldomschrijving VIAA datamodel</b>
+## 3. Gedetailleerde veldomschrijving VIAA datamodel
 
-<b>5. Algemeen</b>
-
-### CP
+### 3.1 Algemeen
 
 <table>
   <tr>
@@ -1379,7 +1377,7 @@ Lokale ID(‘s)</td>
   </tr>
 </table>
 
-<b>6. Relaties</b>
+### 3.2 Relaties
 
 <table>
   <tr>
