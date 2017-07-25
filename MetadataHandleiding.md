@@ -4,7 +4,7 @@
 
 ## 2. Tabel basisannotatie VIAA datamodel
 
-### 1. Administratieve en beschrijvende metadata
+<tab> ### 1. Administratieve en beschrijvende metadata
 
 <table>
   <tr>
