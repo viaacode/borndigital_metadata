@@ -1,4 +1,4 @@
-<b>1. Inhoud</b>
+#1. Inhoud
 
 [[TOC]]
 
