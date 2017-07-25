@@ -12,7 +12,7 @@
     <td>Mapping</td>
   </tr>
   <tr>
-    <td>ALGEMEEN</td>
+    <td colspan="2">ALGEMEEN</td>
     <td>CP naam</td>
     <td>Automatisch</td>
     <td>Automatisch</td>
