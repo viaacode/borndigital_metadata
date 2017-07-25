@@ -1,8 +1,8 @@
-1. Inhoud
+<b>1. Inhoud</b>
 
 [[TOC]]
 
-2. Tabel basisannotatie VIAA datamodel
+<b>2. Tabel basisannotatie VIAA datamodel</b>
 
     1. Administratieve en beschrijvende metadata
 
