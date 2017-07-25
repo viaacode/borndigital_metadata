@@ -136,9 +136,8 @@ plus:CopyrightOwnerName</td>
 </table>
 
 
-3. Tabel uitgebreide annotatie VIAA datamodel
+<b>3. Tabel uitgebreide annotatie VIAA datamodel</b>
 
-    2. Administratieve en beschrijvende metadata
 
 <table>
   <tr>
@@ -627,8 +626,7 @@ Duur</td>
   </tr>
 </table>
 
-
-    3. Kwaliteitscontrole (QC)
+<b>3. Kwaliteitscontrole (QC)</b>
 
 <table>
   <tr>
@@ -684,7 +682,7 @@ Duur</td>
 
 **→ Voor meer details zie VIAA- archiefhandleiding. **
 
-    4. Technische metadata
+<b>4. Technische metadata</b>
 
 <table>
   <tr>
@@ -1157,9 +1155,9 @@ Duur</td>
 </table>
 
 
-4. Gedetailleerde veldomschrijving VIAA datamodel
+<b>4. Gedetailleerde veldomschrijving VIAA datamodel</b>
 
-    5. Algemeen
+<b>5. Algemeen</b>
 
 ### CP
 
@@ -1385,8 +1383,7 @@ Lokale ID(‘s)</td>
   </tr>
 </table>
 
-
-    6. Relaties
+<b>6. Relaties</b>
 
 <table>
   <tr>
@@ -1513,7 +1510,7 @@ Ook de verwantschap tussen episodes uit eenzelfde of programma kan hiermee worde
 </table>
 
 
-    7. Titels
+<b>7. Titels</b>
 
 <table>
   <tr>
@@ -1978,7 +1975,7 @@ pbcore:titleType</td>
 </table>
 
 
-    8. Datum
+<b>8. Datum</b>
 
 <table>
   <tr>
@@ -2105,7 +2102,7 @@ Productiedatum en/of gebruiksdatum (bijv. datum eerste uitzending).</td>
 </table>
 
 
-    9. Productie
+<b>9. Productie</b>
 
 <table>
   <tr>
@@ -2262,7 +2259,7 @@ pbcore:pbcorePublisher/publisher</td>
 </table>
 
 
-    10. Inhoud
+<b>10. Inhoud</b>
 
 <table>
   <tr>
@@ -2751,7 +2748,7 @@ Taal: taal van het item</td>
 </table>
 
 
-    11. Rechten
+<b>11. Rechten</b>
 
 <table>
   <tr>
@@ -3021,7 +3018,7 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 </table>
 
 
-    12. QC
+<b>12. QC</b>
 
 <table>
   <tr>
@@ -3079,7 +3076,7 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 </table>
 
 
-    13. Drager
+<b>13. Drager</b>
 
 <table>
   <tr>
@@ -3546,7 +3543,7 @@ SMPTE 12M</td>
 </table>
 
 
-    14. Logistieke info
+<b>14. Logistieke info</b>
 
 <table>
   <tr>
