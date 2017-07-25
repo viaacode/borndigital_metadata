@@ -1,10 +1,6 @@
-## 1. Inhoud
+## 1. Tabel basisannotatie VIAA datamodel
 
-[[TOC]]
-
-## 2. Tabel basisannotatie VIAA datamodel
-
-<tab> ### 1. Administratieve en beschrijvende metadata
+### 1.2 Administratieve en beschrijvende metadata
 
 <table>
   <tr>
