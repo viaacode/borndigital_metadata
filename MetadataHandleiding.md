@@ -1325,7 +1325,7 @@ Lokale ID(‘s)</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_identifier_localids type="list”>
+    <td><dc_identifier_localids type="list">
       <ARDOME/>
       <priref/>
       ...
