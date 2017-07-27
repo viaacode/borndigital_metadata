@@ -1,135 +1,21 @@
 ## 1. Tabel basisannotatie VIAA datamodel
 
 ### 1.2 Administratieve en beschrijvende metadata
-
-<table>
-  <tr>
-    <td></td>
-    <td>Veldnaam</td>
-    <td>Herkomst metadata born digital</td>
-    <td>Herkomst metadata digitalisatie</td>
-    <td>V/O</td>
-    <td>Mapping</td>
-  </tr>
-  <tr>
-    <td>ALGEMEEN</td>
-    <td>CP naam</td>
-    <td>Automatisch</td>
-    <td>Automatisch</td>
-    <td>V</td>
-    <td>/</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>CP ID</td>
-    <td>Automatisch</td>
-    <td>AMS</td>
-    <td>V</td>
-    <td>/</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>PID</td>
-    <td>Automatisch</td>
-    <td>Automatisch</td>
-    <td>V</td>
-    <td>dc:identifier
-ebucore:identifier
-pbcore:pbcoreIdentifier</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Hoofd lokale CP ID</td>
-    <td>Manueel / mapping</td>
-    <td>AMS</td>
-    <td>V</td>
-    <td>dc:identifier
-ebucore:identifier
-pbcore:pbcoreIdentifier</td>
-  </tr>
-  <tr>
-    <td>TITEL</td>
-    <td>Hoofdtitel</td>
-    <td>Manueel / mapping</td>
-    <td>AMS</td>
-    <td>V</td>
-    <td>dc:title
-ebucore:title/dc:title
-pbcore:pbcoreTitle/title</td>
-  </tr>
-  <tr>
-    <td>DATUM</td>
-    <td>Datum creatie</td>
-    <td>Manueel / mapping</td>
-    <td>AMS</td>
-    <td>V</td>
-    <td>dcterms:created
-ebucore:date/created/@*</td>
-  </tr>
-  <tr>
-    <td>PRODUCTIE</td>
-    <td>Maker</td>
-    <td>Manueel / mapping</td>
-    <td>Manueel / Mapping</td>
-    <td>VA</td>
-    <td>dc:creator
-ebucore:creator
-pbcore:pbcoreCreator/creator</td>
-  </tr>
-  <tr>
-    <td>INHOUD</td>
-    <td>Hoofdbeschrijving</td>
-    <td>Manueel / mapping</td>
-    <td>Manueel / Mapping</td>
-    <td>V*</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Trefwoorden</td>
-    <td>Manueel / mapping</td>
-    <td>Manueel / Mapping</td>
-    <td>V*</td>
-    <td>dc:subject
-ebucore:subject/dc:subject
-pbcore:pbcoreSubject</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Taal</td>
-    <td>Manueel / mapping</td>
-    <td>Manueel / Mapping</td>
-    <td>V</td>
-    <td>dc:language
-ebucore:language
-pbcore:pbcoreInstantiation/instantiationLanguage</td>
-  </tr>
-  <tr>
-    <td>RECHTEN</td>
-    <td>Licentie</td>
-    <td>Manueel / mapping</td>
-    <td>Manueel / mapping</td>
-    <td>V</td>
-    <td>dc:rights
-dc:license
-odrl:permission
-odrl:policy
-premis:copyrightStatus
-premis:rightsStatement/licenseInformation/licenseIdentifier/licenseIdentifierValue</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Auteursrechthouder</td>
-    <td>Manueel / mapping</td>
-    <td>Manueel / mapping</td>
-    <td>V</td>
-    <td>dc:rightsHolder
-premis:linkingAgentIdentifier
-plus:CopyrightOwnerName</td>
-  </tr>
-</table>
+  
+|  |  | Veldnaam |  | Herkomst metadata born digital |  | Herkomst metadata digitalisatie |  | V/O |  | Mapping |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ALGEMEEN |  | CP naam |  | Automatisch |  | Automatisch |  | V |  | / |
+|  |  | CP ID |  | Automatisch |  | AMS |  | V |  | / |  
+|  |  | PID |  | Automatisch |  | Automatisch |  | V |  | dc:identifier<br>ebucore:identifier<br>pbcore:pbcoreIdentifier |
+|  |  | Hoofd lokale CP ID |  | Manueel / mapping |  | AMS |  | V |  | <br>dc:identifier<br>ebucore:identifier<br>pbcore:pbcoreIdentifier |  
+| TITEL |  | Hoofdtitel |  | Manueel / mapping |  | AMS |  | V |  | dc:title<br>ebucore:title/dc:title<br>pbcore:pbcoreTitle/title |  
+| DATUM |  | Datum creatie |  | Manueel / mapping |  | AMS |  | V |  | dcterms:created<br>ebucore:date/created/@* |  
+| PRODUCTIE |  | Maker |  | Manueel / mapping |  | Manueel / Mapping |  | VA |  | dc:creator<br>ebucore:creator<br>pbcore:pbcoreCreator/creator |  
+| INHOUD |  | Hoofdbeschrijving |  | Manueel / mapping |  | Manueel / Mapping |  | V* |  | dc:description<br>ebucore:description/dc:description<br>pbcore:pbcoreDescription |  
+|  |  | Trefwoorden |  | Manueel / mapping |  | Manueel / Mapping |  | V* |  | dc:subject<br>ebucore:subject/dc:subject<br>pbcore:pbcoreSubject |  
+|  |  | Taal |  | Manueel / mapping |  | Manueel / Mapping |  | V |  | dc:language<br>ebucore:language<br>pbcore:pbcoreInstantiation/instantiationLanguage |  
+| RECHTEN |  | Licentie |  | Manueel / mapping |  | Manueel / mapping |  | V |  | dc:rights<br>dc:license<br>odrl:permission<br>odrl:policy<br>premis:copyrightStatus<br>premis:rightsStatement/licenseInformation/licenseIdentifier/licenseIdentifierValue |  
+|  |  | Auteursrechthouder |  | Manueel / mapping |  | Manueel / mapping |  | V |  | dc:rightsHolder<br>premis:linkingAgentIdentifier<br>plus:CopyrightOwnerName |
 
 
 ## 2. Tabel uitgebreide annotatie VIAA datamodel
