@@ -33,8 +33,8 @@
     <td>Automatisch</td>
     <td>Automatisch</td>
     <td>V</td>
-    <td>dc:identifier
-ebucore:identifier
+    <td>dc:identifier<br>
+ebucore:identifier<br>
 pbcore:pbcoreIdentifier</td>
   </tr>
   <tr>
@@ -43,8 +43,8 @@ pbcore:pbcoreIdentifier</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>V</td>
-    <td>dc:identifier
-ebucore:identifier
+    <td>dc:identifier<br>
+ebucore:identifier<br>
 pbcore:pbcoreIdentifier</td>
   </tr>
   <tr>
@@ -53,8 +53,8 @@ pbcore:pbcoreIdentifier</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>V</td>
-    <td>dc:title
-ebucore:title/dc:title
+    <td>dc:title<br>
+ebucore:title/dc:title<br>
 pbcore:pbcoreTitle/title</td>
   </tr>
   <tr>
@@ -63,7 +63,7 @@ pbcore:pbcoreTitle/title</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>V</td>
-    <td>dcterms:created
+    <td>dcterms:created<br>
 ebucore:date/created/@*</td>
   </tr>
   <tr>
@@ -72,8 +72,8 @@ ebucore:date/created/@*</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>VA</td>
-    <td>dc:creator
-ebucore:creator
+    <td>dc:creator<br>
+ebucore:creator<br>
 pbcore:pbcoreCreator/creator</td>
   </tr>
   <tr>
@@ -82,9 +82,9 @@ pbcore:pbcoreCreator/creator</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>V*</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription</td>
+    <td>dc:description<br>
+ebucore:description/<br>dc:description
+pbcore:<br>pbcoreDescription</td>
   </tr>
   <tr>
     <td></td>
@@ -92,8 +92,8 @@ pbcore:pbcoreDescription</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>V*</td>
-    <td>dc:subject
-ebucore:subject/dc:subject
+    <td>dc:subject<br>
+ebucore:subject/dc:subject<br>
 pbcore:pbcoreSubject</td>
   </tr>
   <tr>
@@ -102,9 +102,10 @@ pbcore:pbcoreSubject</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>V</td>
-    <td>dc:language
-ebucore:language
-pbcore:pbcoreInstantiation/instantiationLanguage</td>
+    <td>dc:language<br>
+ebucore:language<br>
+pbcore:pbcoreInstantiation/<br>
+instantiationLanguage</td>
   </tr>
   <tr>
     <td>RECHTEN</td>
@@ -112,12 +113,13 @@ pbcore:pbcoreInstantiation/instantiationLanguage</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>V</td>
-    <td>dc:rights
-dc:license
-odrl:permission
-odrl:policy
-premis:copyrightStatus
-premis:rightsStatement/licenseInformation/licenseIdentifier/licenseIdentifierValue</td>
+    <td>dc:rights<br>
+dc:license<br>
+odrl:permission<br>
+odrl:policy<br>
+premis:copyrightStatus<br>
+premis:rightsStatement/<br>licenseInformation/<br>
+licenseIdentifier/<br>licenseIdentifierValue</td>
   </tr>
   <tr>
     <td></td>
@@ -125,8 +127,8 @@ premis:rightsStatement/licenseInformation/licenseIdentifier/licenseIdentifierVal
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>V</td>
-    <td>dc:rightsHolder
-premis:linkingAgentIdentifier
+    <td>dc:rightsHolder<br>
+premis:linkingAgentIdentifier<br>
 plus:CopyrightOwnerName</td>
   </tr>
 </table>
