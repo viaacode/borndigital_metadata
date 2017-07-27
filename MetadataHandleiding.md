@@ -3071,7 +3071,7 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 </table>
 
 
-<b>13. Drager</b>
+### 3.9 Analoge drager
 
 <table>
   <tr>
@@ -3538,7 +3538,7 @@ SMPTE 12M</td>
 </table>
 
 
-<b>14. Logistieke info</b>
+### 3.10 Logistieke info
 
 <table>
   <tr>
@@ -3670,7 +3670,7 @@ Extended Date Time Format (EDTF)
 </table>
 
 
-    15. Events digitalisatie
+### 3.11 Events digitalisatie
 
 <table>
   <tr>
@@ -4615,7 +4615,7 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 </table>
 
 
-    16. Digitalisatieketen
+### 3.12 Digitalisatieketen
 
 <table>
   <tr>
@@ -5150,7 +5150,7 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 </table>
 
 
-    17. Technische metadata
+### 3.13 Technische metadata
 
 <table>
   <tr>
