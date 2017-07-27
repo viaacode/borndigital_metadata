@@ -1325,7 +1325,7 @@ Lokale ID(‘s)</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_identifier_localids type="list”>
+    <td><dc_identifier_localids type="list">
       <ARDOME/>
       <priref/>
       ...
@@ -1360,11 +1360,11 @@ pbcore:pbcoreIdentifier</td>
   <tr>
     <td>Voorbeeld</td>
     <td>VRT:
-<dc_identifier_localids type=”list”>
+<dc_identifier_localids type="list">
       <ARDOME>ABC135</ARDOME>
 </dc_identifier_localids>
 AMSAB:
-<dc_identifier_localids type=”list”>
+<dc_identifier_localids type="list">
     <reproduction.reference>audiocassette_420</reproduction.reference>
     <acquisition.number>S/2005/051</acquisition.number>
     <alternative_number>MG/05/051-102/1</alternative_number>
@@ -1388,7 +1388,7 @@ Lokale ID(‘s)</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_relations type="list”>
+    <td><dc_relations type="list">
       <is_deel_van/>
 </dc_relations></td>
   </tr>
@@ -1431,7 +1431,7 @@ ebucore:part</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_relations type="list”>
+    <td><dc_relations type="list">
       <bevat/>
 </dc_relations></td>
   </tr>
@@ -1474,7 +1474,7 @@ dcterms:hasPart</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_relations type="list”>
+    <td><dc_relations type="list">
       <is_verwant_aan/>
 </dc_relations></td>
   </tr>
@@ -1566,7 +1566,7 @@ Itemtitel (titel van te beschrijven archiefitem)</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
       <alternatief/>
 </dc_titles></td>
   </tr>
@@ -1594,7 +1594,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
       <alternatief>The Three Musketeers</alternatief>
       <alternatief>Les Trois Mousquetaires</alternatief>
 </dc_titles></td>
@@ -1609,7 +1609,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
       <archief/>
 </dc_titles></td>
   </tr>
@@ -1635,7 +1635,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
       <archief>Archief Gezinsbond</archief>
 </dc_titles</td>
   </tr>
@@ -1649,7 +1649,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
       <deelarchief/>
 </dc_titles></td>
   </tr>
@@ -1675,7 +1675,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
       <deelarchief/>
 </dc_titles></td>
   </tr>
@@ -1689,7 +1689,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
       <reeks/>
 </dc_titles></td>
   </tr>
@@ -1715,7 +1715,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
       <reeks>Mondelinge Bronnen</reeks>
 </dc_titles></td>
   </tr>
@@ -1729,7 +1729,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
       <deelreeks/>
 </dc_titles></td>
   </tr>
@@ -1755,7 +1755,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
       <deelreeks>Over bloemetjes en bijtjes : seksuele voorlichting in  
         en rond het socialistisch milieu</deelreeks>
 </dc_titles></td>
@@ -1770,7 +1770,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
          <serie/>
 </dc_titles></td>
   </tr>
@@ -1798,7 +1798,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
          <serie>Het Journaal</serie>
 </dc_titles></td>
   </tr>
@@ -1818,7 +1818,7 @@ Itemtitel (titel van te beschrijven archiefitem)</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
           <serienummer/>
 </dc_titles></td>
   </tr>
@@ -1858,7 +1858,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
            <seizoen>
 </dc_titles></td>
   </tr>
@@ -1884,7 +1884,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
            <seizoen>Journaal 1300 P2016</seizoen>
 </dc_titles></td>
   </tr>
@@ -1898,7 +1898,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
            <seizoennummer>
 </dc_titles></td>
   </tr>
@@ -1936,7 +1936,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_titles type="list”>
+    <td><dc_titles type="list">
       <programma/>
 </dc_titles></td>
   </tr>
@@ -1964,7 +1964,7 @@ pbcore:titleType</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_titles type=”list”>
+    <td><dc_titles type="list">
       <programma>Journaal 1300 20160301 Di</programma>
 </dc_titles></td>
   </tr>
@@ -2519,7 +2519,7 @@ Beschrijving (summiere beschrijving in tekst; tijdsgebaseerde annotatie optionee
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_types type="list”>
+    <td><dc_types type="list">
       <genre/>
 </dc_types></td>
   </tr>
@@ -2547,7 +2547,7 @@ pbcore:pbcoreGenre</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_types type=”list”>
+    <td><dc_types type="list">
       <genre>sportverslaggeving</genre>
 </dc_types></td>
   </tr>
@@ -2561,7 +2561,7 @@ pbcore:pbcoreGenre</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_coverages type="list”>
+    <td><dc_coverages type="list">
       <ruimte/>
 </dc_coverages></td>
   </tr>
@@ -2588,7 +2588,7 @@ dcterms:spatial</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_coverages type=”list”>
+    <td><dc_coverages type="list">
       <ruimte>Wijnegem shopping center</ruimte>
       <ruimte>provincie Antwerpen</ruimte>
 </dc_coverages></td>
@@ -2603,7 +2603,7 @@ dcterms:spatial</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_coverages type="list”>
+    <td><dc_coverages type="list">
       <tijd/>
 </dc_coverages></td>
   </tr>
@@ -2631,7 +2631,7 @@ ebucore:coverage/temporal</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_coverages type=”list”>
+    <td><dc_coverages type="list">
       <tijd>interbellum</tijd>
       <tijd>jaren 1920</tijd>
 </dc_coverages></td>
@@ -2698,7 +2698,7 @@ Beschrijving (summiere beschrijving in tekst; tijdsgebaseerde annotatie optionee
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_languages type="list”>
+    <td><dc_languages type="list">
       <multiselect/>
 </dc_languages></td>
   </tr>
@@ -2726,7 +2726,7 @@ pbcore:pbcoreInstantiation/instantiationLanguage</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><dc_languages type=”list”>
+    <td><dc_languages type="list">
       <multiselect>nl</multiselect>
       <multiselect>fr</multiselect>
 </dc_languages></td>
@@ -2752,7 +2752,7 @@ Taal: taal van het item</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_rights_licenses type="list”>
+    <td><dc_rights_licenses type="list">
       <licentie/>
 </dc_rights_licences></td>
   </tr>
@@ -2807,7 +2807,7 @@ CC BY-NC-ND</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_rights_rightsOwners type="list”>
+    <td><dc_rights_rightsOwners type="list">
       <auteursrechthouder/> 
 </dc_rights_rightsOwners></td>
   </tr>
@@ -2853,7 +2853,7 @@ Rechthebbende (indien gekend)</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><dc_rights_rightsHolders type="list”>
+    <td><dc_rights_rightsHolders type="list">
       <licentiehouder/>
 </dc_rights_rightsHolders></td>
   </tr>
@@ -2933,7 +2933,7 @@ Rechthebbende (indien gekend)</td>
   </tr>
   <tr>
     <td>Metadata element</td>
-    <td><plus_constraints_1 type="list”>
+    <td><plus_constraints_1 type="list">
       <regio/>
       <medium/>
       <licentie/>
@@ -2962,7 +2962,7 @@ Rechthebbende (indien gekend)</td>
   </tr>
   <tr>
     <td>Voorbeeld</td>
-    <td><plus_constraints_1 type=”list”>
+    <td><plus_constraints_1 type="list">
       <regio>België</region>
       <medium>on-line streaming</medium>
       <duur>2016-02-01 tot 2016-05-01</duur>
@@ -5478,5 +5478,3 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: mag gebruikt worden voor VIAA doelgroepen conform de overeenkomst) </td>
   </tr>
 </table>
-
-
