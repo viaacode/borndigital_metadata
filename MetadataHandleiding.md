@@ -1,4 +1,6 @@
-# Summary 
+# Metadatamodel handleiding born digital ingest
+
+## Inhoudstafel 
 
   - [1. Tabel basisannotatie VIAA datamodel](#section-id-1)
     - [1.2 Administratieve en beschrijvende metadata](#section-id-3)
