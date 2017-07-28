@@ -1,4 +1,33 @@
+# Summary 
+
+  - [1. Tabel basisannotatie VIAA datamodel](#section-id-1)
+    - [1.2 Administratieve en beschrijvende metadata](#section-id-3)
+  - [2. Tabel uitgebreide annotatie VIAA datamodel](#section-id-137)
+    - [2.1 Administratieve en beschrijvende metadata](#section-id-138)
+    - [2.2 Kwaliteitscontrole (QC)](#section-id-627)
+    - [2.3 Technische metadata](#section-id-683)
+  - [3. Gedetailleerde veldomschrijving VIAA datamodel](#section-id-1156)
+    - [3.1 Algemeen](#section-id-1158)
+    - [3.2 Relaties](#section-id-1382)
+    - [3.3 Titels](#section-id-1511)
+    - [3.4 Datum](#section-id-1975)
+    - [3.5 Productie](#section-id-2102)
+    - [3.6 Inhoud](#section-id-2259)
+    - [3.7 Rechten](#section-id-2748)
+    - [3.8 QC](#section-id-3018)
+    - [3.9 Analoge drager](#section-id-3076)
+    - [3.10 Logistieke info](#section-id-3543)
+    - [3.11 Events digitalisatie](#section-id-3675)
+    - [3.12 Digitalisatieketen](#section-id-4620)
+    - [3.13 Technische metadata](#section-id-5155)
+  
+
+
+<div id='section-id-1'/>
+
 ## 1. Tabel basisannotatie VIAA datamodel
+
+<div id='section-id-3'/>
 
 ### 1.2 Administratieve en beschrijvende metadata
 
@@ -134,7 +163,11 @@ plus:CopyrightOwnerName</td>
 </table>
 
 
+<div id='section-id-137'/>
+
 ## 2. Tabel uitgebreide annotatie VIAA datamodel
+<div id='section-id-138'/>
+
 ### 2.1 Administratieve en beschrijvende metadata
 
 <table>
@@ -624,6 +657,8 @@ Duur</td>
   </tr>
 </table>
 
+<div id='section-id-627'/>
+
 ### 2.2 Kwaliteitscontrole (QC)
 
 <table>
@@ -679,6 +714,8 @@ Duur</td>
 
 
 **→ Voor meer details zie VIAA- archiefhandleiding. **
+
+<div id='section-id-683'/>
 
 ### 2.3 Technische metadata
 
@@ -1153,7 +1190,11 @@ Duur</td>
 </table>
 
 
+<div id='section-id-1156'/>
+
 ## 3. Gedetailleerde veldomschrijving VIAA datamodel
+
+<div id='section-id-1158'/>
 
 ### 3.1 Algemeen
 
@@ -1379,6 +1420,8 @@ Lokale ID(‘s)</td>
   </tr>
 </table>
 
+<div id='section-id-1382'/>
+
 ### 3.2 Relaties
 
 
@@ -1507,6 +1550,8 @@ Ook de verwantschap tussen episodes uit eenzelfde of programma kan hiermee worde
   </tr>
 </table>
 
+
+<div id='section-id-1511'/>
 
 ### 3.3 Titels
 
@@ -1972,6 +2017,8 @@ pbcore:titleType</td>
   </tr>
 </table>
 
+<div id='section-id-1975'/>
+
 ### 3.4 Datum
 
 <table>
@@ -2098,6 +2145,8 @@ Productiedatum en/of gebruiksdatum (bijv. datum eerste uitzending).</td>
   </tr>
 </table>
 
+
+<div id='section-id-2102'/>
 
 ### 3.5 Productie
 
@@ -2255,6 +2304,8 @@ pbcore:pbcorePublisher/publisher</td>
   </tr>
 </table>
 
+
+<div id='section-id-2259'/>
 
 ### 3.6 Inhoud
 
@@ -2745,6 +2796,8 @@ Taal: taal van het item</td>
 </table>
 
 
+<div id='section-id-2748'/>
+
 ### 3.7 Rechten
 
 <table>
@@ -3015,6 +3068,8 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 </table>
 
 
+<div id='section-id-3018'/>
+
 ### 3.8 QC
 
 <table>
@@ -3072,6 +3127,8 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
   </tr>
 </table>
 
+
+<div id='section-id-3076'/>
 
 ### 3.9 Analoge drager
 
@@ -3540,6 +3597,8 @@ SMPTE 12M</td>
 </table>
 
 
+<div id='section-id-3543'/>
+
 ### 3.10 Logistieke info
 
 <table>
@@ -3671,6 +3730,8 @@ Extended Date Time Format (EDTF)
   </tr>
 </table>
 
+
+<div id='section-id-3675'/>
 
 ### 3.11 Events digitalisatie
 
@@ -4617,6 +4678,8 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
 </table>
 
 
+<div id='section-id-4620'/>
+
 ### 3.12 Digitalisatieketen
 
 <table>
@@ -5151,6 +5214,8 @@ Gebruiksbeperkingen indien van toepassing (afwijking van de standaard policy: ma
   </tr>
 </table>
 
+
+<div id='section-id-5155'/>
 
 ### 3.13 Technische metadata
 
