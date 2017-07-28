@@ -206,8 +206,8 @@ plus:CopyrightOwnerName</td>
     <td>Automatisch</td>
     <td>V</td>
     <td>dc:identifier<br>
-ebucore:identifier<br>
-pbcore:<br>pbcoreIdentifier</td>
+ebucore:<br>identifier<br>
+pbcore:<br>pbcore<br>Identifier</td>
   </tr>
   <tr>
     <td></td>
@@ -217,9 +217,9 @@ pbcore:<br>pbcoreIdentifier</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>VA</td>
-    <td>dc:identifier<br>
-ebucore:identifier<br>
-pbcore:pbcoreIdentifier</td>
+    <td>dc:<br>identifier<br>
+ebucore:<br>identifier<br>
+pbcore:<br>pbcore<br>Identifier</td>
   </tr>
   <tr>
     <td></td>
@@ -230,7 +230,7 @@ pbcore:pbcoreIdentifier</td>
     <td>O</td>
     <td>dc:identifier<br>
 ebucore:<br>identifier<br>
-pbcore:<br>pbcoreIdentifier</td>
+pbcore:<br>pbcore<br>Identifier</td>
   </tr>
   <tr>
     <td>RELATIES 
@@ -241,8 +241,8 @@ dit digitaal object …</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:isPartOf
-ebucore:part</td>
+    <td>dcterms:<br>isPartOf
+ebucore:<br>part</td>
   </tr>
   <tr>
     <td></td>
@@ -251,8 +251,8 @@ ebucore:part</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:hasPart
-ebucore:hasPart</td>
+    <td>dcterms:<br>hasPart
+ebucore:<br>hasPart</td>
   </tr>
   <tr>
     <td></td>
@@ -272,7 +272,7 @@ ebucore:hasPart</td>
     <td>V</td>
     <td>dc:title<br>
 ebucore:<br>title/dc:title<br>
-pbcore:<br>pbcoreTitle/title</td>
+pbcore:<br>pbcoreTitle/<br>title</td>
   </tr>
   <tr>
     <td></td>
@@ -300,11 +300,11 @@ pbcore:<br>titleType</td>
     <td></td>
     <td>
 </td>
-    <td>   Deelarchief</td>
+    <td>Deelarchief</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>ISAD(G):deelarchief</td>
+    <td>ISAD(G):<br>deelarchief</td>
   </tr>
   <tr>
     <td></td>
@@ -396,8 +396,8 @@ pbcore:<br>titleType</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>V</td>
-    <td>dcterms:created<br>
-ebucore:date/created/@*</td>
+    <td>dcterms:<br>created<br>
+ebucore:<br>date/<br>created/@*</td>
   </tr>
   <tr>
     <td></td>
@@ -406,8 +406,8 @@ ebucore:date/created/@*</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:issued
-ebucore:<br>date/issued/@*</td>
+    <td>dcterms:<br>issued
+ebucore:<br>date/<br>issued/@*</td>
   </tr>
   <tr>
     <td>PRODUCTIE</td>
@@ -517,8 +517,8 @@ pbcore:<br>pbcoreDescription</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
     <td>dc:type<br>
-ebucore:type/genre<br>
-pbcore:pbcoreGenre</td>
+ebucore:<br>type/genre<br>
+pbcore:<br>pbcoreGenre</td>
   </tr>
   <tr>
     <td></td>
@@ -562,8 +562,8 @@ pbcore:<br>pbcoreSubject</td>
     <td>V</td>
     <td>dc:language<br>
 ebucore:language<br>
-pbcore:<br>pbcoreInstantiation/<br>
-instantiationLanguage</td>
+pbcore:<br>pbcore<br>Instantiation/<br>
+instantiation<br>Language</td>
   </tr>
   <tr>
     <td>RECHTEN</td>
@@ -578,7 +578,7 @@ odrl:permission
 odrl:policy<br>
 premis:<br>copyrightStatus<br>
 premis:<br>rightsStatement/<br>licenseInformation/<br>
-licenseIdentifier/<br>licenseIdentifierValue</td>
+licenseIdentifier/<br>license<br>IdentifierValue</td>
   </tr>
   <tr>
     <td></td>
@@ -588,8 +588,8 @@ licenseIdentifier/<br>licenseIdentifierValue</td>
     <td>Manueel / mapping</td>
     <td>V</td>
     <td>dc:rightsHolder<br>
-premis:<br>linkingAgentIdentifier<br>
-plus:<br>CopyrightOwnerName</td>
+premis:<br>linkingAgent<br>Identifier<br>
+plus:<br>Copyright<br>OwnerName</td>
   </tr>
   <tr>
     <td></td>
@@ -1283,9 +1283,9 @@ Duur</td>
   </tr>
   <tr>
     <td>Mapping</td>
-    <td>dc:identifier
-ebucore:identifier
-pbcore:pbcoreIdentifier</td>
+    <td>dc:identifier<br>
+ebucore:<br>identifier<br>
+pbcore:<br>pbcoreIdentifier</td>
   </tr>
   <tr>
     <td>Definitie</td>
