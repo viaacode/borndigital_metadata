@@ -205,9 +205,9 @@ plus:CopyrightOwnerName</td>
     <td>Automatisch</td>
     <td>Automatisch</td>
     <td>V</td>
-    <td>dc:identifier
-ebucore:identifier
-pbcore:pbcoreIdentifier</td>
+    <td>dc:identifier<br>
+ebucore:identifier<br>
+pbcore:<br>pbcoreIdentifier</td>
   </tr>
   <tr>
     <td></td>
@@ -217,8 +217,8 @@ pbcore:pbcoreIdentifier</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>VA</td>
-    <td>dc:identifier
-ebucore:identifier
+    <td>dc:identifier<br>
+ebucore:identifier<br>
 pbcore:pbcoreIdentifier</td>
   </tr>
   <tr>
@@ -228,9 +228,9 @@ pbcore:pbcoreIdentifier</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dc:identifier
-ebucore:identifier
-pbcore:pbcoreIdentifier</td>
+    <td>dc:identifier<br>
+ebucore:<br>identifier<br>
+pbcore:<br>pbcoreIdentifier</td>
   </tr>
   <tr>
     <td>RELATIES 
@@ -270,9 +270,9 @@ ebucore:hasPart</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>V</td>
-    <td>dc:title
-ebucore:title/dc:title
-pbcore:pbcoreTitle/title</td>
+    <td>dc:title<br>
+ebucore:<br>title/dc:title<br>
+pbcore:<br>pbcoreTitle/title</td>
   </tr>
   <tr>
     <td></td>
@@ -282,9 +282,9 @@ pbcore:pbcoreTitle/title</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:alternative
-ebucore:alternativeTitle/@typeLabel
-pbcore:titleType</td>
+    <td>dcterms:<br>alternative<br>
+ebucore:<br>alternativeTitle/<br>@typeLabel<br>
+pbcore:<br>titleType</td>
   </tr>
   <tr>
     <td></td>
@@ -334,9 +334,9 @@ pbcore:titleType</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:alternative
-ebucore:alternativeTitle/@typeLabel
-pbcore:titleType</td>
+    <td>dcterms:<br>alternative<br>
+ebucore:<br>alternativeTitle/<br>@typeLabel<br>
+pbcore:<br>titleType</td>
   </tr>
   <tr>
     <td></td>
@@ -347,9 +347,9 @@ pbcore:titleType</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:alternative
-ebucore:alternativeTitle/@typeLabel
-pbcore:titleType</td>
+    <td>dcterms:<br>alternative<br>
+ebucore:<br>alternativeTitle/<br>@typeLabel<br>
+pbcore:<br>titleType</td>
   </tr>
   <tr>
     <td></td>
@@ -360,9 +360,9 @@ pbcore:titleType</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:alternative
-ebucore:alternativeTitle/@typeLabel
-pbcore:titleType</td>
+    <td>dcterms:<br>alternative<br>
+ebucore:<br>alternativeTitle/<br>@typeLabel<br>
+pbcore:<br>titleType</td>
   </tr>
   <tr>
     <td></td>
@@ -373,9 +373,9 @@ pbcore:titleType</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:alternative
-ebucore:alternativeTitle/@typeLabel
-pbcore:titleType</td>
+    <td>dcterms:<br>alternative<br>
+ebucore:<br>alternativeTitle/<br>@typeLabel<br>
+pbcore:<br>titleType</td>
   </tr>
   <tr>
     <td>TITEL</td>
@@ -385,9 +385,9 @@ pbcore:titleType</td>
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>O</td>
-    <td>dcterms:alternative
-ebucore:alternativeTitle/@typeLabel
-pbcore:titleType</td>
+    <td>dcterms:<br>alternative<br>
+ebucore:<br>alternativeTitle/<br>@typeLabel<br>
+pbcore:<br>titleType</td>
   </tr>
   <tr>
     <td>DATUM</td>
@@ -396,7 +396,7 @@ pbcore:titleType</td>
     <td>Manueel / mapping</td>
     <td>AMS</td>
     <td>V</td>
-    <td>dcterms:created
+    <td>dcterms:created<br>
 ebucore:date/created/@*</td>
   </tr>
   <tr>
@@ -407,7 +407,7 @@ ebucore:date/created/@*</td>
     <td>Manueel / mapping</td>
     <td>O</td>
     <td>dcterms:issued
-ebucore:date/issued/@*</td>
+ebucore:<br>date/issued/@*</td>
   </tr>
   <tr>
     <td>PRODUCTIE</td>
@@ -416,9 +416,9 @@ ebucore:date/issued/@*</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>VA</td>
-    <td>dc:creator
-ebucore:creator
-pbcore:pbcoreCreator/creator</td>
+    <td>dc:creator<br>
+ebucore:<br>creator<br>
+pbcore:<br>pbcoreCreator/<br>creator</td>
   </tr>
   <tr>
     <td></td>
@@ -427,9 +427,9 @@ pbcore:pbcoreCreator/creator</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
-    <td>dc:contributor
-ebucore:contributor
-pbcore:pbcoreContributor/contributor</td>
+    <td>dc:contributor<br>
+ebucore:<br>contributor<br>
+pbcore:<br>pbcoreContributor/<br>contributor</td>
   </tr>
   <tr>
     <td></td>
@@ -438,9 +438,9 @@ pbcore:pbcoreContributor/contributor</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
-    <td>dc:publisher
-ebucore:publisher
-pbcore:pbcorePublisher/publisher</td>
+    <td>dc:publisher<br>
+ebucore:<br>publisher<br>
+pbcore:<br>pbcorePublisher/<br>publisher</td>
   </tr>
   <tr>
     <td>INHOUD</td>
@@ -449,9 +449,9 @@ pbcore:pbcorePublisher/publisher</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>V*</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription</td>
+    <td>dc:description<br>
+ebucore:<br>description/<br>dc:description<br>
+pbcore:<br>pbcoreDescription</td>
   </tr>
   <tr>
     <td></td>
@@ -460,9 +460,9 @@ pbcore:pbcoreDescription</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription</td>
+    <td>dc:description<br>
+ebucore:<br>description/<br>dc:description<br>
+pbcore:<br>pbcoreDescription</td>
   </tr>
   <tr>
     <td></td>
@@ -471,9 +471,9 @@ pbcore:pbcoreDescription</td>
     <td>Manueel / mapping</td>
     <td>Manueel/ Mapping</td>
     <td>O</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription </td>
+    <td>dc:description<br>
+ebucore:<br>description/<br>dc:description<br>
+pbcore:<br>pbcoreDescription </td>
   </tr>
   <tr>
     <td></td>
@@ -483,9 +483,9 @@ beschrijving</td>
     <td>Manueel / mapping</td>
     <td>Manueel/ Mapping</td>
     <td>O</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription </td>
+    <td>dc:description<br>
+ebucore:<br>description/<br>dc:description<br>
+pbcore:<br>pbcoreDescription </td>
   </tr>
   <tr>
     <td></td>
@@ -494,9 +494,9 @@ pbcore:pbcoreDescription </td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription</td>
+    <td>dc:description<br>
+ebucore:<br>description/<br>dc:description<br>
+pbcore:<br>pbcoreDescription</td>
   </tr>
   <tr>
     <td></td>
@@ -505,9 +505,9 @@ pbcore:pbcoreDescription</td>
     <td>Mapping / software</td>
     <td>Mapping / software</td>
     <td>O</td>
-    <td>dc:description
-ebucore:description/dc:description
-pbcore:pbcoreDescription</td>
+    <td>dc:description<br>
+ebucore:<br>description/<br>dc:description<br>
+pbcore:<br>pbcoreDescription</td>
   </tr>
   <tr>
     <td></td>
@@ -516,8 +516,8 @@ pbcore:pbcoreDescription</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
-    <td>dc:type
-ebucore:type/genre
+    <td>dc:type<br>
+ebucore:type/genre<br>
 pbcore:pbcoreGenre</td>
   </tr>
   <tr>
@@ -527,9 +527,9 @@ pbcore:pbcoreGenre</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
-    <td>dc:coverage
-dcterms:spatial
-ebucore:coverage/spatial</td>
+    <td>dc:coverage<br>
+dcterms:<br>spatial<br>
+ebucore:<br>coverage/spatial</td>
   </tr>
   <tr>
     <td></td>
@@ -538,9 +538,9 @@ ebucore:coverage/spatial</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>O</td>
-    <td>dc:coverage
-dcterms:temporal
-ebucore:coverage/temporal </td>
+    <td>dc:coverage<br>
+dcterms:<br>temporal<br>
+ebucore:<br>coverage/temporal </td>
   </tr>
   <tr>
     <td></td>
@@ -549,9 +549,9 @@ ebucore:coverage/temporal </td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>V*</td>
-    <td>dc:subject
-ebucore:subject/dc:subject
-pbcore:pbcoreSubject</td>
+    <td>dc:subject<br>
+ebucore:<br>subject/dc:subject<br>
+pbcore:<br>pbcoreSubject</td>
   </tr>
   <tr>
     <td></td>
@@ -560,9 +560,10 @@ pbcore:pbcoreSubject</td>
     <td>Manueel / mapping</td>
     <td>Manueel / Mapping</td>
     <td>V</td>
-    <td>dc:language
-ebucore:language
-pbcore:pbcoreInstantiation/instantiationLanguage</td>
+    <td>dc:language<br>
+ebucore:language<br>
+pbcore:<br>pbcoreInstantiation/<br>
+instantiationLanguage</td>
   </tr>
   <tr>
     <td>RECHTEN</td>
@@ -572,11 +573,12 @@ pbcore:pbcoreInstantiation/instantiationLanguage</td>
     <td>Manueel / mapping</td>
     <td>V</td>
     <td>dc:rights
-dc:license
+dc:license<br>
 odrl:permission
-odrl:policy
-premis:copyrightStatus
-premis:rightsStatement/licenseInformation/licenseIdentifier/licenseIdentifierValue</td>
+odrl:policy<br>
+premis:<br>copyrightStatus<br>
+premis:<br>rightsStatement/<br>licenseInformation/<br>
+licenseIdentifier/<br>licenseIdentifierValue</td>
   </tr>
   <tr>
     <td></td>
@@ -585,9 +587,9 @@ premis:rightsStatement/licenseInformation/licenseIdentifier/licenseIdentifierVal
     <td>Manueel / mapping</td>
     <td>Manueel / mapping</td>
     <td>V</td>
-    <td>dc:rightsHolder
-premis:linkingAgentIdentifier
-plus:CopyrightOwnerName</td>
+    <td>dc:rightsHolder<br>
+premis:<br>linkingAgentIdentifier<br>
+plus:<br>CopyrightOwnerName</td>
   </tr>
   <tr>
     <td></td>
