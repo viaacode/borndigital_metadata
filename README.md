@@ -270,7 +270,7 @@ Thematische trefwoorden met betrekking tot de inhoud van het item.
 De (belangrijkste) taal/talen die in het item worden gesproken of gebruikt.
 ```xml
 <dc_languages type=”list”> 
-    multiselect/>
+    <multiselect/>
 </dc_languages>
 ```
 
@@ -321,4 +321,10 @@ Beperking van de gebruiksrechten tot een bepaalde regio, medium en/of periode.
 Hier kunnen bijkomende opmerkingen en voorwaarden met betrekking tot de gebruiksrechten van toepassing op het item worden vastgelegd.
 ```xml
 <dc_rights_comment/>
+```
+
+##### Rechten
+Hier kan het type rechten van toepassing op het item worden vastgelegd.
+```xml
+<dc_rights/>
 ```
