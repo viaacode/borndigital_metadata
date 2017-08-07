@@ -70,7 +70,7 @@ van vormt.</dc_description_programme>
         <multiselect>en</multiselect>
     </dc_languages>
     <dc_rights_licenses type="list">
-      <licentie>CC BY</licentie>
+      <multiselect>CC BY</licentie>
     </dc_rights_licenses>
     <dc_rights_rightsOwners type="list">
       <auteursrechthouder>Organisatie X</auteursrechthouder>
