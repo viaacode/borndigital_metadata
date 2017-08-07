@@ -274,7 +274,7 @@ De (belangrijkste) taal/talen die in het item worden gesproken of gebruikt.
 Het type licentie waaronder de exploitatie (het gebruik, de reproductie en bewerking) van het item wordt geregeld.
 ```xml
 <dc_rights_licenses type=”list”> 
-    <licentie/>
+    <multiselect/>
 </dc_rights_licences>
 ```
 
