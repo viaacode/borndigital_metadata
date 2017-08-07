@@ -134,6 +134,7 @@
         <xs:element type="xs:string" name="dc_description_cast"/>
         <xs:element type="xs:string" name="dc_description_ondertitels"/>
         <xs:element type="xs:string" name="dc_description_transcriptie"/>
+        <xs:element type="xs:string" name="dc_description_categorie"/>
         <xs:element name="dc_types">
           <xs:complexType>
             <xs:choice maxOccurs="unbounded">

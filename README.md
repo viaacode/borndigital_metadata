@@ -201,7 +201,7 @@ Een korte, algemene omschrijving van de intellectuele inhoud van het item.
 ##### Lange beschrijving
 Een gedetailleerde beschrijving van de inhoud van het item. Dit kan bijvoorbeeld door puntsgewijs de voornaamste scènes, stockshorts,... te beschrijven. Voor ondertitels is evenwel een apart veld voorzien.
 ```xml
-<dc_description_long/>
+<dc_description_lang/>
 ```
 
 ##### Programmabeschrijving
@@ -226,6 +226,12 @@ Een weergave van de ondertitels die bij het digitale object horen.
 Een weergave van de transcriptie van het digitale object.
 ```xml
 <dc_description_transcriptie/>
+```
+
+##### Categorie
+Een weergave van de categorie van het digitale object.
+```xml
+<dc_description_categorie/>
 ```
 
 ##### Genre

@@ -51,6 +51,7 @@ van vormt.</dc_description_programme>
     <dc_description_cast>Julien Schoenaert (Oedipus), Aafke Bruyninckx (Antigone)</dc_description_cast>
     <dc_description_ondertitels>Een weergave van de ondertitels die bij het digitale object horen.</dc_description_ondertitels>
     <dc_description_transcriptie>Kan eventueel de uitkomst zijn van een speech-to-tekst toepassing.</dc_description_transcriptie>
+    <dc_description_categorie>algemeen</dc_description_categorie>
     <dc_types type="list">
       <multiselect>sportverslaggeving</multiselect>
     </dc_types>
