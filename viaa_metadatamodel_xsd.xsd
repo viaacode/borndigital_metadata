@@ -188,6 +188,7 @@
                     <xs:element type="xs:string" name="multiselect"> 
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
+                          <xs:enumeration value="nl"/>
                           <xs:enumeration value="fr"/>
                           <xs:enumeration value="de"/>
                           <xs:enumeration value="it"/>
