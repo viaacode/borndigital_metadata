@@ -28,7 +28,7 @@
               </xs:restriction>
             </xs:simpleType>
         </xs:element>
-        <xs:element use="required" maxOccurs="1" type="xs:string" name="dc_title"/>
+        <xs:element minOccurs="1" maxOccurs="1" type="xs:string" name="dc_title"/>
         <xs:element name="dc_titles">
           <xs:complexType>
             <xs:sequence>
@@ -39,7 +39,7 @@
         </xs:element>
         <xs:element type="xs:string" name="dcterms_issued"/>
         <xs:element type="xs:string" name="dcterms_created"/>
-        <xs:element type="xs:string" name="ebu_objectType">
+        <xs:element name="ebu_objectType">
           <xs:simpleType>
             <xs:restriction base="xs:string">
               <xs:enumeration value="item"/>
@@ -128,7 +128,7 @@
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
         </xs:element>
-        <xs:element type="xs:string" name="description"/>
+        <xs:element type="xs:string" name="dc_description"/>
         <xs:element type="xs:string" name="dc_description_lang"/>
         <xs:element type="xs:string" name="dc_description_programme"/>
         <xs:element type="xs:string" name="dc_description_cast"/>
@@ -138,7 +138,7 @@
         <xs:element name="dc_types">
           <xs:complexType>
             <xs:choice maxOccurs="unbounded">
-              <xs:element type="xs:string" name="multiselect"> 
+              <xs:element name="multiselect"> 
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:enumeration value="Animatie"/>
@@ -180,12 +180,9 @@
           </xs:complexType>
         </xs:element>
         <xs:element name="dc_languages">
-          <xs:complexType>
-            <xs:choice maxOccurs="unbounded">
-              <xs:element type="xs:string" name="taal" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
-                    <xs:element type="xs:string" name="multiselect"> 
+                    <xs:element name="multiselect"> 
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:enumeration value="nl"/>
@@ -378,16 +375,13 @@
                       </xs:simpleType>
                     </xs:element>
                   </xs:choice>
+                  <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
                 </xs:complexType>
-              </xs:element>
-            </xs:choice>
-            <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
-          </xs:complexType>
         </xs:element>
         <xs:element name="dc_rights_licenses">
           <xs:complexType>
             <xs:choice maxOccurs="unbounded">
-              <xs:element type="xs:string" name="multiselect"> 
+              <xs:element name="multiselect"> 
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:enumeration value="VIAA-ONDERWIJS"/>
@@ -420,7 +414,7 @@
         <xs:element name="dc_rights_rightsOwners">
           <xs:complexType>
             <xs:choice maxOccurs="unbounded">
-              <xs:element type="xs:string" name="auteursrechthouder"/>
+              <xs:element type="xs:string" name="Auteursrechthouder"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
@@ -428,7 +422,7 @@
         <xs:element name="dc_rights_rightsHolders">
           <xs:complexType>
             <xs:choice maxOccurs="unbounded">
-              <xs:element type="xs:string" name="licentiehouder"/>
+              <xs:element type="xs:string" name="Licentiehouder"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
