@@ -39,14 +39,7 @@
         </xs:element>
         <xs:element type="xs:string" name="dcterms_issued"/>
         <xs:element type="xs:string" name="dcterms_created"/>
-        <xs:element name="ebu_objectType">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:enumeration value="item"/>
-              <xs:enumeration value="uitzending"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
+        <xs:element maxOccurs="1" type="xs:string" name="ebu_objectType"/>
         <xs:element name="dc_creators">
           <xs:complexType>
             <xs:choice>
