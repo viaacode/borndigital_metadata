@@ -15,9 +15,25 @@
         <xs:element type="xs:string" name="dc_identifier_localid"/>
         <xs:element name="dc_identifier_localids">
           <xs:complexType>
-            <xs:sequence>
-              <xs:any maxOccurs="unbounded" processContents="skip"/>
-            </xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+              <xs:element type="xs:string" name="Acquisition_number"/>
+              <xs:element type="xs:string" name="Adlib"/>
+              <xs:element type="xs:string" name="Api"/>
+              <xs:element type="xs:string" name="Alternative_number"/>
+              <xs:element type="xs:string" name="Analoge_drager"/>
+              <xs:element type="xs:string" name="Ardome"/>
+              <xs:element type="xs:string" name="Basis"/>
+              <xs:element type="xs:string" name="Bestandsnaam"/>
+              <xs:element type="xs:string" name="Historical_carrier"/>
+              <xs:element type="xs:string" name="Historical_record_number"/>
+              <xs:element type="xs:string" name="MEDIA_ID"/>
+              <xs:element type="xs:string" name="Object_number"/>
+              <xs:element type="xs:string" name="Pdf"/>
+              <xs:element type="xs:string" name="Priref"/>
+              <xs:element type="xs:string" name="Word_ID"/>
+              <xs:element type="xs:string" name="WorkPID"/>
+              <xs:element type="xs:string" name="DataPID"/>
+            </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
         </xs:element>
@@ -31,9 +47,21 @@
         <xs:element minOccurs="1" maxOccurs="1" type="xs:string" name="dc_title"/>
         <xs:element name="dc_titles">
           <xs:complexType>
-            <xs:sequence>
-              <xs:any maxOccurs="unbounded" processContents="skip"/>
-            </xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+              <xs:element type="xs:string" name="serie"/>
+              <xs:element type="xs:string" name="episode"/>
+              <xs:element type="xs:string" name="aflevering"/>
+              <xs:element type="xs:string" name="alternatief"/>
+              <xs:element type="xs:string" name="programma"/>
+              <xs:element type="xs:string" name="serienummer"/>
+              <xs:element type="xs:string" name="seizoen"/>
+              <xs:element type="xs:string" name="seizoennummer"/>
+              <xs:element type="xs:string" name="archief"/>
+              <xs:element type="xs:string" name="deelarchief"/>
+              <xs:element type="xs:string" name="reeks"/>
+              <xs:element type="xs:string" name="deelreeks"/>
+              <xs:element type="xs:string" name="registratie"/>
+            </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
         </xs:element>
@@ -42,9 +70,9 @@
         <xs:element maxOccurs="1" type="xs:string" name="ebu_objectType"/>
         <xs:element name="dc_creators">
           <xs:complexType>
-            <xs:choice>
-              <xs:element type="xs:string" name="Maker"/>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="Archiefvormer"/>
+              <xs:element type="xs:string" name="Maker"/>
               <xs:element type="xs:string" name="Auteur"/>
               <xs:element type="xs:string" name="Cineast"/>
               <xs:element type="xs:string" name="Componist"/>
@@ -64,7 +92,7 @@
         </xs:element>
         <xs:element name="dc_contributors">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="Bijdrager"/>
               <xs:element type="xs:string" name="Adviseur"/>
               <xs:element type="xs:string" name="Arrangeur"/>
@@ -78,6 +106,7 @@
               <xs:element type="xs:string" name="Dirigent"/>
               <xs:element type="xs:string" name="Fotografie"/>
               <xs:element type="xs:string" name="Geluid"/>
+              <xs:element type="xs:string" name="Geluidsman"/>
               <xs:element type="xs:string" name="Kunstenaar"/>
               <xs:element type="xs:string" name="Make-up"/>
               <xs:element type="xs:string" name="Muzikant"/>
@@ -104,7 +133,7 @@
         </xs:element>
         <xs:element name="dc_publishers">
           <xs:complexType>
-            <xs:choice>
+            <xs:choice maxOccurs="unbounded">
               <xs:element type="xs:string" name="Distributeur"/>
               <xs:element type="xs:string" name="Exposant"/>
               <xs:element type="xs:string" name="Persagentschap"/>
@@ -116,7 +145,7 @@
         <xs:element name="dc_subjects">
           <xs:complexType>
             <xs:choice maxOccurs="unbounded">
-              <xs:element type="xs:string" name="trefwoord"/>
+              <xs:element type="xs:string" name="Trefwoord"/>
             </xs:choice>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
@@ -155,6 +184,7 @@
                     <xs:enumeration value="Performance"/>
                     <xs:enumeration value="Speelfilm"/>
                     <xs:enumeration value="Sport"/>
+                    <xs:enumeration value="Sportverslaggeving"/>
                     <xs:enumeration value="Wetenschap"/>
                   </xs:restriction>
                 </xs:simpleType>
