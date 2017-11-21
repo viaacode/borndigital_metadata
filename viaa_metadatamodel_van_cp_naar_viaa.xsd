@@ -15,25 +15,9 @@
         <xs:element type="xs:string" name="dc_identifier_localid"/>
         <xs:element name="dc_identifier_localids">
           <xs:complexType>
-            <xs:choice maxOccurs="unbounded">
-              <xs:element type="xs:string" name="Acquisition_number"/>
-              <xs:element type="xs:string" name="Adlib"/>
-              <xs:element type="xs:string" name="Api"/>
-              <xs:element type="xs:string" name="Alternative_number"/>
-              <xs:element type="xs:string" name="Analoge_drager"/>
-              <xs:element type="xs:string" name="Ardome"/>
-              <xs:element type="xs:string" name="Basis"/>
-              <xs:element type="xs:string" name="Bestandsnaam"/>
-              <xs:element type="xs:string" name="Historical_carrier"/>
-              <xs:element type="xs:string" name="Historical_record_number"/>
-              <xs:element type="xs:string" name="MEDIA_ID"/>
-              <xs:element type="xs:string" name="Object_number"/>
-              <xs:element type="xs:string" name="Pdf"/>
-              <xs:element type="xs:string" name="Priref"/>
-              <xs:element type="xs:string" name="Word_ID"/>
-              <xs:element type="xs:string" name="WorkPID"/>
-              <xs:element type="xs:string" name="DataPID"/>
-            </xs:choice>
+            <xs:sequence>
+              <xs:any maxOccurs="unbounded" processContents="skip"/>
+            </xs:sequence>
             <xs:attribute type="xs:string" name="type" use="required" fixed="list"/>
           </xs:complexType>
         </xs:element>
