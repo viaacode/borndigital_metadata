@@ -10,8 +10,11 @@
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:enumeration value="overwrite"/>
+        <xs:enumeration value="OVERWRITE"/>
         <xs:enumeration value="keep"/>
+        <xs:enumeration value="KEEP"/>
         <xs:enumeration value="merge"/>
+        <xs:enumeration value="MERGE"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
@@ -51,23 +54,16 @@
       <xs:all>
         <xs:element minOccurs="0" name="title" type="basic"/>
         <xs:element minOccurs="0" name="description" type="basic"/>
-        <xs:element minOccurs="0" name="md5" type="md5type"/>
-        <xs:element minOccurs="0" name="MDProperties">
+        <xs:element name="md5" type="md5type" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="MDProperties" minOccurs="0" maxOccurs="1">
           <xs:complexType>
-            <xs:choice maxOccurs="unbounded" minOccurs="0">
-              <xs:element name="CP" type="xs:string"/>
-              <xs:element name="CP_id" type="xs:string"/>
-              <xs:element name="Original_CP" type="xs:string"/>
-              <xs:element name="Original_CP_id" type="xs:string"/>
-              <xs:element name="PID" type="xs:string"/>
-              <xs:element name="CreationDate">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:pattern value="[0-9]{4}:[0-1][0-9]:[0-3][0-9] [0-2][0-9]:[0-6][0-9]:[0-6][0-9]"/>
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
-              <xs:element default="borndigital" name="sp_name">
+            <xs:all>
+              <xs:element name="CP" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="CP_id" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="Original_CP" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Original_CP_id" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="PID" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element default="borndigital" name="sp_name" minOccurs="0" maxOccurs="1">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:enumeration value="borndigital"/>
@@ -80,8 +76,8 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="dc_source" type="xs:string"/>
-              <xs:element name="dc_relations">
+              <xs:element name="dc_source" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_relations" minOccurs="0" maxOccurs="1">
                     <xs:complexType>
                       <xs:choice maxOccurs="unbounded" minOccurs="0">
                         <xs:element name="bevat" type="xs:string"/>
@@ -89,26 +85,28 @@
                         <xs:element name="is_deel_van" type="xs:string"/>
                       </xs:choice>
                       <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                      <xs:attribute ref="strategy" use="optional"/>
                     </xs:complexType>
               </xs:element>
-              <xs:element name="dc_identifier_localid" type="xs:string"/>
-              <xs:element name="dc_identifier_localids">
+              <xs:element name="dc_identifier_localid" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="dc_identifier_localids" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:any maxOccurs="unbounded" processContents="skip"/>
                   </xs:sequence>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="md5">
+              <xs:element name="md5" minOccurs="0" maxOccurs="1">
                 <xs:simpleType>
                   <xs:restriction base="xs:hexBinary">
                     <xs:pattern value="[0-9A-Fa-f]{32}"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element maxOccurs="1" minOccurs="1" name="dc_title" type="xs:string"/>
-              <xs:element name="dc_titles">
+              <xs:element name="dc_title" type="xs:string" maxOccurs="1" minOccurs="1"/>
+              <xs:element name="dc_titles" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="serie" type="xs:string"/>
@@ -126,20 +124,21 @@
                     <xs:element name="registratie" type="xs:string"/>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dcterms_issued" type="xs:string"/>
-              <xs:element name="dcterms_created" type="xs:string"/>
-              <xs:element name="date" type="xs:string"/>
-              <xs:element name="CreationDate">
+              <xs:element name="dcterms_issued" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dcterms_created" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="date" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="CreationDate" minOccurs="0" maxOccurs="1">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:pattern value="[0-9]{4}:[0-1][0-9]:[0-3][0-9] [0-2][0-9]:[0-6][0-9]:[0-6][0-9]"/>
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element maxOccurs="1" name="ebu_objectType" type="xs:string"/>
-              <xs:element name="dc_creators">
+              <xs:element name="ebu_objectType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_creators" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="Archiefvormer" type="xs:string"/>
@@ -160,9 +159,10 @@
                     <xs:element name="productionCompany" type="xs:string"/>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_contributors">
+              <xs:element name="dc_contributors" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="Bijdrager" type="xs:string"/>
@@ -204,35 +204,40 @@
                     <xs:element name="Technisch_adviseur" type="xs:string"/>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_publishers">
+              <xs:element name="dc_publishers" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="Distributeur" type="xs:string"/>
                     <xs:element name="Exposant" type="xs:string"/>
                     <xs:element name="Persagentschap" type="xs:string"/>
                     <xs:element name="Publisher" type="xs:string"/>
+                    <xs:element name="publisher" type="xs:string"/>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_subjects">
+              <xs:element name="dc_subjects" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="Trefwoord" type="xs:string"/>
                   </xs:choice>
-                  <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>                  
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_description" type="xs:string"/>
-              <xs:element name="dc_description_lang" type="xs:string"/>
-              <xs:element name="dc_description_programme" type="xs:string"/>
-              <xs:element name="dc_description_cast" type="xs:string"/>
-              <xs:element name="dc_description_ondertitels" type="xs:string"/>
-              <xs:element name="dc_description_transcriptie" type="xs:string"/>
-              <xs:element name="dc_description_categorie" type="xs:string"/>
-              <xs:element name="dc_types">
+              <xs:element name="dc_description" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_description_lang" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_description_short" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_description_programme" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_description_cast" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_description_ondertitels" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_description_transcriptie" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_description_categorie" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_types" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="multiselect">
@@ -261,23 +266,26 @@
                           <xs:enumeration value="Sport"/>
                           <xs:enumeration value="Sportverslaggeving"/>
                           <xs:enumeration value="Wetenschap"/>
+                          <xs:enumeration value="quiz en spel"/>
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_coverages">
+              <xs:element name="dc_coverages" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element minOccurs="0" name="ruimte" type="xs:string"/>
                     <xs:element minOccurs="0" name="tijd" type="xs:string"/>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_languages">
+              <xs:element name="dc_languages" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="multiselect">
@@ -474,11 +482,12 @@
                     </xs:element>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_rights_licenses">
+              <xs:element name="dc_rights_licenses" minOccurs="1" maxOccurs="1">
                 <xs:complexType>
-                  <xs:choice maxOccurs="unbounded">
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
                     <xs:element name="multiselect">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -507,35 +516,39 @@
                     </xs:element>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_rights_rightsOwners">
+              <xs:element name="dc_rights_rightsOwners" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="Auteursrechthouder" type="xs:string"/>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_rights_rightsHolders">
+              <xs:element name="dc_rights_rightsHolders" minOccurs="0" maxOccurs="1">
                 <xs:complexType>
                   <xs:choice maxOccurs="unbounded">
                     <xs:element name="Licentiehouder" type="xs:string"/>
                   </xs:choice>
                   <xs:attribute fixed="list" name="type" type="xs:string" use="required"/>
+                  <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="dc_rights_credit" type="xs:string"/>
-              <xs:element name="dc_rights_comment" type="xs:string"/>
-              <xs:element name="rights_owner" type="xs:string"/>
-              <xs:element name="vrt_status" type="xs:string"/>
-              <xs:element name="vrt_has_been_broadcasted" type="xs:string"/>
-              <xs:element name="vrt_production_method" type="xs:string"/>
-              <xs:element name="type_viaa" type="xs:string"/>
-            </xs:choice>
+              <xs:element name="dc_rights_credit" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_rights_comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="dc_format" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="rights_owner" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="vrt_status" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="vrt_has_been_broadcasted" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="vrt_production_method" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="type_viaa" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            </xs:all>
           </xs:complexType>
         </xs:element>
-        <xs:element minOccurs="0" ref="fragments"/>
+        <xs:element ref="fragments" minOccurs="0" maxOccurs="1"/>
       </xs:all>
       <xs:attribute ref="name" use="optional"/>
       <xs:attribute name="version" type="xs:decimal" use="optional"/>
