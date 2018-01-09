@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MediaHAVEN_external_metadata>
+  <title>Blokken A4998</title>
+  <description></description>
+  <MDProperties>
+    <CP>VRT</CP>
+    <CP_id>OR-rf5kf25</CP_id>
+    <PID>6688g9sj7z</PID>
+    <ebu_objectType>program</ebu_objectType>
+    <dc_identifier_localid>WP00113155</dc_identifier_localid>
+    <dc_identifier_localids type="list" strategy="OVERWRITE">
+      <MEDIA_ID>WP00113155</MEDIA_ID>
+    </dc_identifier_localids>
+    <dcterms_created>0001-01-01T00:00:00</dcterms_created>
+    <dcterms_issued>0001-01-01T00:00:00</dcterms_issued>
+    <CreationDate>0001:01:01 00:00:00</CreationDate>
+    <dc_title>Blokken A4998</dc_title>
+    <dc_titles type="list" strategy="OVERWRITE">
+      <seizoen>Blokken 2017-2018</seizoen>
+      <serie>Blokken</serie>
+      <programma>Blokken A4998</programma>
+    </dc_titles>
+    <dc_creators type="list" strategy="OVERWRITE">
+      <productionCompany>DeMensen</productionCompany>
+    </dc_creators>
+    <dc_publishers type="list" strategy="OVERWRITE">
+      <publisher></publisher>
+    </dc_publishers>
+    <dc_description>Spelprogramma waarin twee kandidaten het tegen elkaar opnemen in een quiz over algemene kennis, gecombineerd met elementen uit een computerspel.</dc_description>
+    <dc_description_short>Spelprogramma waarin twee kandidaten het tegen elkaar opnemen in een quiz over algemene kennis, gecombineerd met elementen uit een computerspel.</dc_description_short>
+    <dc_description_lang></dc_description_lang>
+    <dc_description_cast>Presentatie: Ben Crabbé</dc_description_cast>
+    <dc_description_categorie>algemeen</dc_description_categorie>
+    <dc_types type="list" strategy="OVERWRITE">
+      <multiselect>quiz en spel</multiselect>
+    </dc_types>
+    <dc_subjects type="list" strategy="OVERWRITE">
+      <Trefwoord></Trefwoord>
+    </dc_subjects>
+    <dc_rights_rightsHolders type="list" strategy="OVERWRITE">
+      <Licentiehouder></Licentiehouder>
+    </dc_rights_rightsHolders>
+    <dc_rights_comment></dc_rights_comment>
+    <dc_format></dc_format>
+    <vrt_status>nieuw</vrt_status>
+    <vrt_has_been_broadcasted>false</vrt_has_been_broadcasted>
+    <type_viaa>video</type_viaa>
+    <vrt_production_method>extern</vrt_production_method>
+    <dc_rights_licenses type="list" strategy="OVERWRITE"></dc_rights_licenses>
+  </MDProperties>
+</MediaHAVEN_external_metadata>

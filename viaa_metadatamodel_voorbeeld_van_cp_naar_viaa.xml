@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VIAA>
     <CP>naam organisatie</CP>
-    <sp_name>borndigital</sp_name>
     <dc_source>aangeleverde-bestandsnaam.mov</dc_source>
     <dc_identifier_localid>123</dc_identifier_localid>
     <dc_identifier_localids type="list">
-      <custom>http://voorbeeld.be/voorbeeld.pdf</custom>
-      <bestandsnaam>aangeleverde-bestandsnaam.mov</bestandsnaam>
-      <api>http://api.voorbeeld.be/123</api>
+      <Pdf>http://voorbeeld.be/voorbeeld.pdf</Pdf>
+      <Bestandsnaam>aangeleverde-bestandsnaam.mov</Bestandsnaam>
+      <Api>http://api.voorbeeld.be/123</Api>
     </dc_identifier_localids>
     <md5>d0d9e3222d998d2c3dcaeff8a23f9592</md5>
-    <title>nieuws 19-09-94</title>
+    <dc_title>nieuws 19-09-94</dc_title>
     <dc_titles type="list">
       <archief>Archief Gezinsbond</archief>
       <deelarchief>Deel X van Archief Gezinsbond</deelarchief>
@@ -26,58 +25,57 @@
     </dc_titles>
     <dcterms_issued>2014-03-11T13:00:00</dcterms_issued>
     <dcterms_created>2014-uu-uu</dcterms_created>
-    <dc_creators type=”list”>
-     <maker>Naam maker</maker>
-     <archiefvormer>Naam archiefvormer</archiefvormer>
-     <publisher>Naam publisher</publisher>
-     <custom>Naam van custom makerveld</custom>
+    <ebu_objectType>item</ebu_objectType>
+    <dc_creators type="list">
+     <Maker>Naam maker</Maker>
+     <Archiefvormer>Naam archiefvormer</Archiefvormer>
+     <Performer>Naam performer</Performer>
     </dc_creators>
     <dc_contributors type="list">
-      <bijdrager>Naam bijdrager</bijdrager>
-      <geluidsman>Naam geluidsman</geluidsman>
-      <custom>Naam van custom functie</custom>
+      <Bijdrager>Naam bijdrager</Bijdrager>
+      <Geluidsman>Naam geluidsman</Geluidsman>
     </dc_contributors>
-    <dc_publishers type=list/>
-     <publisher>Naam publisher</publisher>
-     <omroep>Naam omroep</omroep>
-     <distributeur>Naam distributeur</distributeur>
-     <persagentschap>Naam persagentschap</persagentschap>
+    <dc_publishers type="list">
+     <Publisher>Naam publisher</Publisher>
+     <Distributeur>Naam distributeur</Distributeur>
+     <Persagentschap>Naam persagentschap</Persagentschap>
     </dc_publishers>
-    <dc_subjects type="list">
-      <trefwoord>Vergaderzaal: Antoon Van Dyck</trefwoord>
-    </dc_subjects>
-    <description>hoofdbeschrijving | OCR | speech-to-text</description>
-    <dc_description_long>Uitgebreide beschrijving</dc_description_long>
+    <dc_description>hoofdbeschrijving | OCR | speech-to-text</dc_description>
+    <dc_description_lang>Uitgebreide beschrijving</dc_description_lang>
     <dc_description_programme>Een korte beschrijving van het programma waar het item een onderdeel
 van vormt.</dc_description_programme>
     <dc_description_cast>Julien Schoenaert (Oedipus), Aafke Bruyninckx (Antigone)</dc_description_cast>
     <dc_description_ondertitels>Een weergave van de ondertitels die bij het digitale object horen.</dc_description_ondertitels>
     <dc_description_transcriptie>Kan eventueel de uitkomst zijn van een speech-to-tekst toepassing.</dc_description_transcriptie>
-    <dc_types type=”list”>
-      <genre>sportverslaggeving</genre>
+    <dc_description_categorie>algemeen</dc_description_categorie>
+    <dc_types type="list">
+      <multiselect>Sportverslaggeving</multiselect>
     </dc_types>
-    <dc_coverages type=”list”>
+    <dc_coverages type="list">
       <ruimte>Gemeente X</ruimte>
       <tijd>interbellum</tijd>
     </dc_coverages>
-    <dc_subjects type=”list”>
-     <trefwoord>seksuele voorlichting</trefwoord>
-     <trefwoord>socialistische beweging</trefwoord>
+    <dc_subjects type="list">
+     <Trefwoord>seksuele voorlichting</Trefwoord>
+     <Trefwoord>socialistische beweging</Trefwoord>
     </dc_subjects>
-    <dc_languages type=”list”>
-     <multiselect>nl</multiselect>
-     <multiselect>fr</multiselect>
+    <dc_languages type="list">
+        <multiselect>nl</multiselect>
+        <multiselect>fr</multiselect>
+        <multiselect>de</multiselect>
+        <multiselect>it</multiselect>
+        <multiselect>en</multiselect>
     </dc_languages>
     <dc_rights_licenses type="list">
-      <licentie>CC BY</licentie>
+      <multiselect>Publiek domein</multiselect>
     </dc_rights_licenses>
     <dc_rights_rightsOwners type="list">
-      <auteursrechthouder>Organisatie X</auteursrechthouder>
+      <Auteursrechthouder>Organisatie X</Auteursrechthouder>
     </dc_rights_rightsOwners>
     <dc_rights_rightsHolders type="list">
-      <licentiehouder>Organisatie X</licentiehouder>
+      <Licentiehouder>Organisatie X</Licentiehouder>
     </dc_rights_rightsHolders>
     <dc_rights_credit>Alle rechten voorbehouden. Gelieve contact op te
-nemen met reproductie@uu.be</dc_rights_credit/>
+nemen met reproductie@uu.be</dc_rights_credit>
     <dc_rights_comment>Bijkomende opmerkingen en voorwaarden.</dc_rights_comment>
 </VIAA>
