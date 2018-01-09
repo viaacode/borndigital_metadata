@@ -515,7 +515,7 @@
                   <xs:sequence>
                     <xs:element maxOccurs="unbounded" minOccurs="0" name="Licentiehouder" type="xs:string"/>
                   </xs:sequence>
-                  <xs:attribute default="list" name="type" type="xs:string" use="optionalpuls"/>
+                  <xs:attribute default="list" name="type" type="xs:string" use="optional"/>
                   <xs:attribute ref="strategy" use="optional"/>
                 </xs:complexType>
               </xs:element>
