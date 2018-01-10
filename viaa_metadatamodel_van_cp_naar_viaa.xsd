@@ -433,7 +433,7 @@
                           <xs:enumeration value="CC-BY-SA-METADATA"/>
                           <xs:enumeration value="CC-BY-SA-CONTENT"/>
                           <xs:enumeration value="CC BY-ND-METADATA"/>
-                          <xs:enumeration value="CC BY-ND-CONTEN"/>
+                          <xs:enumeration value="CC BY-ND-CONTENT"/>
                           <xs:enumeration value="CC BY-NC-METADATA"/>
                           <xs:enumeration value="CC BY-NC-CONTENT"/>
                           <xs:enumeration value="CC BY-NC-ND-METADATA"/>
