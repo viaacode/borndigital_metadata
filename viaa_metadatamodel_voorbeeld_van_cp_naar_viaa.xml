@@ -67,7 +67,11 @@ van vormt.</dc_description_programme>
         <multiselect>en</multiselect>
     </dc_languages>
     <dc_rights_licenses type="list">
-      <multiselect>Publiek domein</multiselect>
+      <multiselect>VIAA-PUBLIEK-METADATA-LTD</multiselect>
+      <multiselect>VIAA-INTRA_CP-METADATA-ALL</multiselect>
+	  <multiselect>VIAA-INTRA_CP-CONTENT</multiselect>
+	  <multiselect>VIAA-ONDERZOEK</multiselect>
+	  <multiselect>VIAA-ONDERWIJS</multiselect>    
     </dc_rights_licenses>
     <dc_rights_rightsOwners type="list">
       <Auteursrechthouder>Organisatie X</Auteursrechthouder>
