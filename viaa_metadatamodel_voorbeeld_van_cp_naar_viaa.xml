@@ -2,6 +2,7 @@
 <VIAA>
     <CP>naam organisatie</CP>
 	<CP_id></CP_id>
+	<Original_CP></Original_CP>
     <dc_source>aangeleverde-bestandsnaam.mov</dc_source>
     <dc_identifier_localid>123</dc_identifier_localid>
     <dc_identifier_localids type="list">
