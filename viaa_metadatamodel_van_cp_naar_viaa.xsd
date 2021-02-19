@@ -105,6 +105,7 @@
                     <xs:element minOccurs="0" maxOccurs="unbounded" name="Co-producer" type="xs:string"/>
                     <xs:element minOccurs="0" maxOccurs="unbounded" name="Commentator" type="xs:string"/>
                     <xs:element minOccurs="0" maxOccurs="unbounded" name="Componist" type="xs:string"/>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="Digitaliseringspartner" type="xs:string"/>
                     <xs:element minOccurs="0" maxOccurs="unbounded" name="Dirigent" type="xs:string"/>
                     <xs:element minOccurs="0" maxOccurs="unbounded" name="Fotografie" type="xs:string"/>
                     <xs:element minOccurs="0" maxOccurs="unbounded" name="Geluid" type="xs:string"/>
